@@ -1,0 +1,66 @@
+/* MilFilmTVRemarkCSS - Custom CSS snippet for cssclasses for Mil Film & TV Remarks by Mil Stamenković*/
+/* © 2026 Mil Stamenković  */
+/* Additional help by Free Claude AI */
+/* Created: 18.02.2026. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 28.02.2026. - Ćuprija, Serbia - Mil Stamenković */
+
+/* TO DO */
+/* ✔) Make everything BELOW poster and poster too CENTRALIZED */
+/* 2) Asd */
+
+
+
+/* Source/LivePreview view for MilFilmTVRemarkCSS in cssclasses property */
+.markdown-source-view.MilFilmTVRemarkCSS {
+    background-color: #0F0F0F !important;
+    color: #A3A3A3 !important;
+}
+
+/* Reading view for MilFilmTVRemarkCSS in cssclasses property */
+.markdown-preview-view.MilFilmTVRemarkCSS {
+    background-color: #0F0F0F !important;
+    color: #A3A3A3 !important;
+}
+
+/* Inline POSTER (IMAGE) size */
+.MilFilmTVRemarkCSS .mb-view-type-image {
+    max-width: 200px !important;
+    display: inline-block !important;
+}
+
+
+
+/* mftvrc - CALLOUT for Mil Film TV Remarks Credits */
+
+.callout[data-callout="mftvrc"] {
+    background: #0F0F0F !important;
+    color: #A3A3A3 !important;
+    font-size: 1.2em !important;
+}
+
+.callout[data-callout="mftvrc"] .callout-title {
+    display: none !important;
+}
+
+.callout[data-callout="mftvrc"] .callout-content {
+    color: #ff0000 !important;
+    text-align: center;
+}
+
+/* h2 is used for Title under Poster  */
+.callout[data-callout="mftvrc"] .callout-content h2 {
+    color: #ff0000 !important;
+    font-size: 2em !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.callout[data-callout="mftvrc"] .callout-content h2 a {
+    color: #ff0000 !important;
+}
+
+.callout[data-callout="mftvrc"] .callout-content a {
+    text-decoration: none !important;
+    color: #A3A3A3 !important;
+}
+

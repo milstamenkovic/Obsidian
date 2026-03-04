@@ -1,0 +1,31 @@
+/* Replace 'dark-note' with your preferred class name */
+.markdown-source-view.mod-cm6, 
+.markdown-preview-view {
+    /* Core Obsidian Dark Theme Variables */
+    --background-primary: #1e1e1e;
+    --background-primary-alt: #161616;
+    --background-secondary: #161616;
+    --background-secondary-alt: #0a0a0a;
+    
+    --text-normal: #dcddde;
+    --text-muted: #72767d;
+    --text-faint: #4f545c;
+    --text-accent: #758ed9;
+    
+    --h1-color: #ffffff;
+    --h2-color: #f2f2f2;
+    --h3-color: #e6e6e6;
+    
+    /* Live Preview Specific overrides */
+    --caret-color: #ffffff;
+    --selection-bg: rgba(255, 255, 255, 0.1);
+    
+    /* Force specific element colors for visibility */
+    color: var(--text-normal);
+    background-color: var(--background-primary);
+}
+
+/* Ensure syntax highlighting remains readable in Dark Preview */
+.cm-content {
+    color: var(--text-normal);
+}

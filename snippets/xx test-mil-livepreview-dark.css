@@ -1,0 +1,34 @@
+/* Dark mode for Live preview by Mil Stamenković*/
+/* Created: 16.01.2026. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 16.01.2026. - Ćuprija, Serbia - Mil Stamenković */
+
+.markdown-source-view.mod-cm6, 
+.markdown-preview-view {
+    /* Core Obsidian Dark Theme Variables */
+    --background-primary: #141414;
+    --background-primary-alt: #161616;
+    --background-secondary: #161616;
+    --background-secondary-alt: #0a0a0a;
+    
+    --text-normal: #bfbfbf;
+    
+    /* REMOVE TAB LINES */
+    --indentation-guide-width: 0px;
+    --indentation-guide-color: transparent;
+    --indentation-guide-color-active: transparent;
+    
+    /* Live Preview Specific overrides */
+    --caret-color: #ffffff;
+    --selection-bg: rgba(255, 255, 255, 0.1);
+    
+    /* Force specific element colors for visibility */
+    color: var(--text-normal);
+    background-color: var(--background-primary);
+}
+
+/* Ensure syntax highlighting remains readable in Dark Preview */
+.cm-content {
+    color: var(--text-normal);
+}
+
+

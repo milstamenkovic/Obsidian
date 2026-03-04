@@ -1,0 +1,54 @@
+/* Calude AI Custom Dark Theme for Obsidian */
+
+.theme-dark {
+  /* Background colors */
+  --background-primary: #1a1a1a;
+  --background-secondary: #252525;
+  --background-secondary-alt: #2a2a2a;
+  --background-modifier-border: #424242;
+  --background-modifier-form-field: #1e1e1e;
+  
+  /* Text colors */
+  --text-normal: #dcddde;
+  --text-muted: #999999;
+  --text-faint: #666666;
+  --text-on-accent: #ffffff;
+  
+  /* Accent colors */
+  --interactive-accent: #7c3aed;
+  --interactive-accent-hover: #8b5cf6;
+  
+  /* Link colors */
+  --link-color: #58a6ff;
+  --link-color-hover: #79b8ff;
+  --link-unresolved-color: #9d4edd;
+  
+  /* Code colors */
+  --code-background: #2d2d2d;
+  --code-normal: #e06c75;
+  
+  /* Other UI elements */
+  --scrollbar-bg: #1a1a1a;
+  --scrollbar-thumb-bg: #424242;
+  --highlight-bg: rgba(124, 58, 237, 0.2);
+}
+
+/* Headers */
+.cm-header-1 {
+    color: #e06c75; font-size: 1.8em;
+}
+.cm-header-2 {
+    color: #98c379; font-size: 1.6em;
+}
+.cm-header-3 {
+    color: #61afef; font-size: 1.4em;
+}
+.cm-header-4 {
+    color: #c678dd; font-size: 1.2em;
+}
+.cm-header-5 {
+    color: #e5c07b; font-size: 1.1em;
+}
+.cm-header-6 {
+    color: #56b6c2; font-size: 1.0em;
+}

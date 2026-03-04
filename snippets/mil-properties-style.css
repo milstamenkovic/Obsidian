@@ -1,0 +1,79 @@
+
+/* Mil Properties Style */
+
+/* CSS from user from this Reddit post: https://www.reddit.com/r/ObsidianMD/comments/1675a70/my_custom_css_for_properties/ */
+
+/* Mil Stamenković Modification - Changed the width of PROPERTIES names on the left -- 07.10.2024. - Ćuprija, Srbija */
+
+/* Mil Stamenković Modification - Changed the auto color of PROPERTIES -- 04.01.2026. - Ćuprija, Srbija */
+
+:root {
+    color-scheme: light dark;
+}
+
+
+.metadata-properties-title {
+    color: #ff0000 !important;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+body {
+    --metadata-label-width: max(30%, 10rem);
+    --metadata-label-font-weight: 1000;
+    --metadata-input-font-weight: 1000;
+}
+
+.metadata-property input[type='text'], .metadata-property input[type='date'], .metadata-property input[type='datetime-local'], .metadata-property input[type='number'], .metadata-property .multi-select-container {
+    color: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+Original CSS code:
+
+// hides "Properties" title, also hides dropdown
+.metadata-properties-heading {
+  display: none;
+  
+}
+
+.metadata-properties, .metadata-properties *, .metadata-add-button, .metadata-properties-heading {
+  font-family: var(--font-monospace), "azeret mono", "space mono", "jetbrains mono";
+}
+
+body {
+  --metadata-label-font-weight: 500;
+  --metadata-label-text-color: #bdc;
+  --metadata-label-font-size: 14px;
+  --metadata-input-font-size: 14px;
+  --metadata-gap: 0;
+  --metadata-padding: 0 0 .25rem 0;
+  --metadata-label-width: max(22.5%, 8rem);
+  --metadata-input-height: calc(var(--metadata-label-font-size) * 2.1);
+}
+
+.metadata-property-key .metadata-property-icon {
+  --icon-color: #bdc;
+  --icon-size: 1rem;
+}
+
+.metadata-container {
+  border-bottom: dashed .2rem var(--background-modifier-border);
+  margin-bottom: 1.5rem;
+  /* for minimal theme */
+  --input-height: var(--metadata-input-height);
+}
+
+*/

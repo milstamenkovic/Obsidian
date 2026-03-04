@@ -1,0 +1,174 @@
+/* Mil LivePreview Dark - Custom CSS snippet for Dark mode for LivePreview view by Mil Stamenković*/
+/* © 2026 Mil Stamenković */
+/* Additional help by Free Claude AI */
+/* Created: 13.02.2026. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 26.02.2026. - Ćuprija, Serbia - Mil Stamenković */
+
+
+
+/* DARK THEME COLORS */
+/* White color = #c8c8c8 */
+/* Red color   = #871600 */
+/* Black color = #000000 */
+/* Dark color  = #0F0F0F */
+
+
+
+/* VARIABLES FOR EVERYTHING */
+* {
+    --text-table: #c8c8c8;
+    --background-table: #0F0F0F; 
+}
+
+/* LivePreview view */
+.markdown-source-view.mod-cm6.is-live-preview, .markdown-preview-view {
+    background-color: #0F0F0F;
+    --background-primary: #0F0F0F;
+    --background-primary-alt: #0F0F0F;
+    --background-secondary: #0F0F0F;
+    --background-secondary-alt: #0F0F0F;
+    --background-modifier-border: #0F0F0F;
+    --background-modifier-form-field: #0F0F0F;
+   
+    color: #c8c8c8; 
+}
+
+
+/* LivePreview and Source view */
+.markdown-source-view.mod-cm6.is-source {
+    /* Core Obsidian Dark Theme Variables */
+    --background-primary: #0F0F0F;
+    --background-primary-alt: #161616;
+    --background-secondary: #161616;
+    --background-secondary-alt: #0a0a0a;
+    --background-modifier-border: #424242;
+    --background-modifier-form-field: #1e1e1e;
+    
+    /* Text color */
+    --text-normal: #c8c8c8;
+    --text-muted: #999999;
+    --text-faint: #666666;
+    --text-on-accent: #ffffff;
+    
+    /* Link colors */
+    --link-color: #ff0000;
+    --link-unresolved-color: #ff0000;
+    
+    /* Code colors */
+    --code-background: #2d2d2d;
+    --code-normal: #e06c75;
+    
+    /* REMOVE TAB LINES */
+    --indentation-guide-width: 0px;
+    --indentation-guide-color: transparent;
+    --indentation-guide-color-active: transparent;
+    
+    /* Force specific element colors for visibility */
+    color: var(--text-normal);
+    background-color: var(--background-primary);
+}
+
+/* Color of ==highlighted== text */
+.cm-highlight {
+    color: #c8c8c8 !important;
+}
+
+/* Headers */
+.cm-header-1 {
+    color: #c8c8c8; font-size: 1.8em;
+}
+.cm-header-2 {
+    color: #c8c8c8; font-size: 1.6em;
+}
+.cm-header-3 {
+    color: #c8c8c8; font-size: 1.4em;
+}
+.cm-header-4 {
+    color: #c8c8c8; font-size: 1.2em;
+}
+.cm-header-5 {
+    color: #c8c8c8; font-size: 1.1em;
+}
+.cm-header-6 {
+    color: #c8c8c8; font-size: 1.0em;
+}
+
+
+
+/* Table color */
+table {
+    background-color: var(--background-table) !important;
+    border-color: #c8c8c8 !important;
+}
+
+table th,
+table td {
+    background-color: var(--background-table) !important;
+    border-color: #c8c8c8 !important;
+    color: var(--text-table) !important;
+}
+
+/* Color of ==highlighted== text in LivePreview and Source table */
+table mark,
+table .cm-highlight {
+    color: var(--text-table) !important;
+}
+
+
+
+/* Never crossout text after Checkboxes */
+.task-list-item.is-checked {
+  text-decoration: none !important;
+}
+
+
+
+/*  OBSIDIAN INTERFACE */
+
+/* Color of FOLDER OF ACTIVE NOTE FILE in Folder/Notes Explorer */
+/* Only FIRST PARENT folder */
+.tree-item.nav-folder:has(> .tree-item-children > .tree-item.nav-file > .is-active) > .tree-item-self.nav-folder-title {
+    background-color: #4e0d00 !important;
+}
+
+/* Color of ACTIVE NOTE FILE in Folder/Notes Explorer */
+.tree-item-self.nav-file-title.tappable.is-clickable.is-active {
+    background-color: #4e0d00 !important;
+    box-shadow: none !important;
+}
+
+/* Color of all PARENT folders of OPENED note file in Folder/Files Explorer */
+.tree-item.nav-folder:has(> .tree-item-children .is-active) > .tree-item-self.nav-folder-title {
+    /* Darker than ACTIVE */
+    background-color: #240600 !important;
+}
+
+/* Hover color over folders and files in Folder/Files Explorer */
+.tree-item-self:hover {
+    /* Darker than ACTIVE */
+    background-color: #240600 !important;
+}
+
+
+
+/* Icons icons */
+.vertical-tab-nav-item.tappable.is-active,
+.workspace-tab-header-inner-icon,
+.nav-action-button svg,
+.side-dock-ribbon-action svg,
+.clickable-icon svg {
+    color: #871600 !important; /* Icon color */
+}
+
+
+
+/* [[]] menu colors */
+
+.suggestion-item.is-selected {
+    background-color: #871600 !important; /* Selected item background */
+    color: #ffffff !important;
+}
+
+.suggestion-item.is-selected .suggestion-note {
+    color: #fffffF !important;
+}
