@@ -1,0 +1,811 @@
+{
+  "workspaces": {
+    "Mil Workspace": {
+      "main": {
+        "id": "581474b565887a64",
+        "type": "split",
+        "children": [
+          {
+            "id": "d96ea444336fd6ad",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e78e5ce619a6bb69",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    },
+                    {
+                      "title": "New tab",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"empty\",\"state\":{},\"pinned\":true}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "🌌 Mil Notes/000 📝 Personal/-00 ⏳ tmp Notes/⭐ 0 tmp Notes.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "03be4fae1bf513ff",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 1,
+                  "stack": [
+                    {
+                      "title": "List of all notes",
+                      "icon": "lucide-file",
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🌌 Mil Notes/List of all notes.md\",\"mode\":\"source\",\"source\":false}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                    },
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "🌌 Mil Notes/000 📝 Personal/-00 ⏳ tmp Notes/⭐ tmp Film Notes 🎞.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1,
+            "stacked": true
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "89c9c0085d1ea5d2",
+        "type": "split",
+        "children": [
+          {
+            "id": "d360d074cad4a278",
+            "type": "tabs",
+            "dimension": 57.375,
+            "children": [
+              {
+                "id": "1695d04877e0fe47",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "f58b80aebb062c90",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1dcc7a5871b7d8b3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "07013163aac7125f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#MilNotes",
+                    "matchingCase": false,
+                    "explainSearch": true,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "dd392b2f46539260",
+            "type": "tabs",
+            "dimension": 42.625,
+            "children": [
+              {
+                "id": "b476b65d5b0ff0a3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "1428c6ee4b377402",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "🌌 Mil Notes/000 📝 Personal/-00 ⏳ tmp Notes/⭐ tmp Film Notes 🎞.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 227.5
+      },
+      "right": {
+        "id": "0383119ab731ae73",
+        "type": "split",
+        "children": [
+          {
+            "id": "2f37e84d15e03601",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5510999fc800fd92",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "🌌 Mil Notes/000 📝 Personal/-00 ⏳ tmp Notes/⭐ tmp Film Notes 🎞.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "f87bb31e34a2af26",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "🌌 Mil Notes/000 📝 Personal/-00 ⏳ tmp Notes/⭐ tmp Film Notes 🎞.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "e18c1cb60d0ac0be",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "float-search:Search Obsidian In Modal": false,
+          "graph:Open graph view": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "switcher:Open quick switcher": true,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "canvas:Create new canvas": false,
+          "workspaces:Manage workspace layouts": false,
+          "command-palette:Open command palette": true,
+          "table-editor-obsidian:Advanced Tables Toolbar": true
+        }
+      },
+      "active": "1695d04877e0fe47",
+      "ophidian:layout-settings": {
+        "pane-relief:focus-lock": false
+      },
+      "mtime": "2024-05-17T03:01:12+02:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "🌌 Mil Notes",
+          "🌌 Mil Notes/000 📝 Personal/📂 Hardware/📂 Typewriters",
+          "🌌 Mil Notes/000 📝 Personal/📂 Hardware/📂 Typewriters/📂 ❗Mil Owned Typewriters",
+          "🌌 Mil Notes/x Templates 🛑🔒/Template notes"
+        ]
+      }
+    },
+    "Mil ToDo/Calendars Workspace": {
+      "main": {
+        "id": "581474b565887a64",
+        "type": "split",
+        "children": [
+          {
+            "id": "2d96413fd431fd2e",
+            "type": "split",
+            "children": [
+              {
+                "id": "542eacf66bb3d036",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "964431bbddd93a13",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 1,
+                      "stack": [
+                        {
+                          "title": "❗Daily Calendar",
+                          "icon": "lucide-file",
+                          "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🌌 Mil Notes/02 📅 Calendars/❗Daily Calendar.md\",\"mode\":\"source\",\"source\":false}}",
+                          "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                        },
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "🌌 Mil Notes/000 📝 Personal/-01 🔲 TO DO/❗🔲 To Do.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "0869a5da943ececc",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "🌌 Mil Notes/000 📝 Personal/-00 ⏳ tmp Notes/⭐ 0 tmp Notes.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "f9cc9926d2da8acf",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "🌌 Mil Notes/000 📝 Personal/-02 📅 Calendars/❗Daily Calendar.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "a645a8c8190ff43a",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "🌌 Mil Notes/000 📝 Personal/-02 📅 Calendars/❗Important Dates.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  }
+                ],
+                "stacked": true
+              },
+              {
+                "id": "a75e5fe14b673e33",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "0c7cf92b53789f1f",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "🌌 Mil Notes/000 📝 Personal/-01 🔲 TO DO/🔲 To Buy.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "3b960c2888b51a3d",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "🌌 Mil Notes/000 📝 Personal/-01 🔲 TO DO/🔲 To Install.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "cd75d18171cd1d3f",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "🌌 Mil Notes/000 📝 Personal/-01 🔲 TO DO/🔲 To Learn.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "52bd24b23b1e9d12",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "🌌 Mil Notes/000 📝 Personal/-01 🔲 TO DO/🔲 To Play.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "7bd1319e75fc7af6",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "🌌 Mil Notes/000 📝 Personal/-01 🔲 TO DO/🔲 To Read.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "3773e6bb12de1f86",
+                    "type": "leaf",
+                    "pane-relief:history-v1": {
+                      "pos": 0,
+                      "stack": [
+                        {
+                          "state": "{}",
+                          "eState": "{}"
+                        }
+                      ]
+                    },
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "🌌 Mil Notes/000 📝 Personal/-01 🔲 TO DO/🔲 To Watch.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  }
+                ],
+                "stacked": true
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "89c9c0085d1ea5d2",
+        "type": "split",
+        "children": [
+          {
+            "id": "d360d074cad4a278",
+            "type": "tabs",
+            "dimension": 57.375,
+            "children": [
+              {
+                "id": "1695d04877e0fe47",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "f58b80aebb062c90",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1dcc7a5871b7d8b3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "07013163aac7125f",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#5_9l",
+                    "matchingCase": false,
+                    "explainSearch": true,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "dd392b2f46539260",
+            "type": "tabs",
+            "dimension": 42.625,
+            "children": [
+              {
+                "id": "b476b65d5b0ff0a3",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "1428c6ee4b377402",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "🌌 Mil Notes/000 📝 Personal/-01 🔲 TO DO/🔲 To Buy.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 232.5
+      },
+      "right": {
+        "id": "0383119ab731ae73",
+        "type": "split",
+        "children": [
+          {
+            "id": "2f37e84d15e03601",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5510999fc800fd92",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "🌌 Mil Notes/000 📝 Personal/-01 🔲 TO DO/🔲 To Buy.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "f87bb31e34a2af26",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "🌌 Mil Notes/000 📝 Personal/-01 🔲 TO DO/🔲 To Buy.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "e18c1cb60d0ac0be",
+                "type": "leaf",
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "state": "{}",
+                      "eState": "{}"
+                    }
+                  ]
+                },
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "float-search:Search Obsidian In Modal": false,
+          "graph:Open graph view": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "switcher:Open quick switcher": true,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "canvas:Create new canvas": false,
+          "workspaces:Manage workspace layouts": false,
+          "command-palette:Open command palette": true,
+          "table-editor-obsidian:Advanced Tables Toolbar": true
+        }
+      },
+      "active": "1695d04877e0fe47",
+      "ophidian:layout-settings": {
+        "pane-relief:focus-lock": false
+      },
+      "mtime": "2024-05-17T03:03:15+02:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "🌌 Mil Notes"
+        ]
+      }
+    }
+  },
+  "active": "Mil Workspace"
+}

@@ -1,0 +1,1015 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "image": {
+          "richText": false
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "🌌 Mil Notes/xxx 🛑 test-test 🛑🔒/Projects - Demo Project",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "width": 360
+              },
+              "path": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "name": "Table",
+          "id": "4a7df413-d4a8-46f6-b3fd-7fb99ae6b439",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "orderSyncField": "weight"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "name": "Board",
+          "id": "8c302161-ab5c-413f-a969-1190bed6c9f5",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "due",
+            "checkField": "published"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "name": "Calendar",
+          "id": "926c3bda-345c-4462-aa4f-e52dda984568",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "image"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "name": "Gallery",
+          "id": "dedced15-53b6-43a4-b50c-6bcff3f6e7a9",
+          "type": "gallery"
+        }
+      ],
+      "name": "- Demo project -",
+      "id": "e54f2153-343d-46af-a764-faaa85f70b9a",
+      "path": "Projects - Demo Project"
+    },
+    {
+      "fieldConfig": {
+        "IMDb score": {
+          "richText": true
+        },
+        "Rotten Tomatoes": {
+          "richText": true
+        },
+        "Year": {
+          "richText": true
+        },
+        "Director": {
+          "richText": true
+        },
+        "Screenwriter": {
+          "richText": true
+        },
+        "Cast": {
+          "richText": true
+        },
+        "Music": {
+          "richText": true
+        },
+        "Budget": {
+          "richText": true
+        },
+        "Box office": {
+          "richText": true
+        },
+        "Wikipedia": {
+          "richText": true
+        },
+        "Story": {
+          "richText": true
+        },
+        "Cinematography": {
+          "richText": true
+        },
+        "Editor": {
+          "richText": true
+        },
+        "Studio": {
+          "richText": true
+        },
+        "Country": {
+          "richText": true
+        },
+        "Watch": {
+          "richText": true
+        },
+        "Folder": {
+          "richText": true
+        },
+        "Script": {
+          "richText": true
+        },
+        "Film tags": {
+          "richText": true
+        },
+        "Genre tags": {
+          "richText": true
+        },
+        "Films": {
+          "richText": true
+        },
+        "Remarks Summary": {
+          "richText": true
+        },
+        "Poster": {
+          "richText": true
+        },
+        "Mil Score Legend": {
+          "richText": true
+        },
+        "Mil Score": {
+          "richText": true
+        },
+        "Slika": {
+          "richText": true
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "dataview",
+        "config": {
+          "query": "TABLE\n  file.link AS Films, link(row[\"Mil score legend\"], row[\"Mil score\"]) AS \"Mil Score\", link(row[\"REMARKS SUMMARY\"], \"\") AS \"Remarks Summary\", row[\"IMDb score\"] AS \"IMDb score\", row[\"Rotten Tomatoes\"] AS \"Rotten Tomatoes\", Budget, row[\"Box office\"] AS \"Box office\", Wikipedia, Year, Length, Director, Screenwriter, Story, Cast, Cinematography, Editor, Music, Studio, Country, Watch, Folder, Script, row[\"Film tags\"] AS \"Film tags\", row[\"Genre tags\"] AS \"Genre tags\", row[\"First time watched\"] AS \"First⌚👁\", row[\"Last time watched\"] AS \"Last⌚👁\", dateformat(file.ctime, \"dd.MM.yyyy, HH:mm\") AS \"Created\", dateformat(file.mtime, \"dd.MM.yyyy, HH:mm\") AS \"Modified\", row[\"Poster\"] AS Poster\nFROM \"🌌 Mil Notes/00 📝 Personal/📂 Film-TV 🎞📺/📂 0 Mil Film-TV Remarks\"\nWHERE contains(file.tags, \"/MilFilmRemarks\") OR contains(file.tags, \"MilFilmRemarks\")"
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "File": {
+                "width": 570,
+                "pinned": false,
+                "hide": true
+              },
+              "Film": {
+                "width": 220,
+                "hide": true
+              },
+              "Mil score": {
+                "width": 149
+              },
+              "Poster": {
+                "hide": true
+              },
+              "Folder": {
+                "width": 139
+              },
+              "Genre tags": {
+                "hide": true
+              },
+              "Film tags": {
+                "hide": true
+              },
+              "Screenwriter": {
+                "width": 316
+              },
+              "Director": {
+                "width": 271
+              },
+              "Last time watched": {
+                "width": 305
+              },
+              "Films": {
+                "pinned": true,
+                "width": 559,
+                "hide": false
+              },
+              "Story": {
+                "width": 239
+              },
+              "First time watched": {
+                "width": 311
+              },
+              "First⌚👁": {
+                "width": 295
+              },
+              "Last⌚👁": {
+                "width": 295
+              },
+              "Remarks Summary": {
+                "width": 185,
+                "hide": false
+              },
+              "Mil Score Legend": {
+                "width": 188
+              },
+              "Mil Score": {
+                "hide": false,
+                "width": 154,
+                "pinned": false
+              },
+              "IMDb score": {
+                "hide": false,
+                "width": 161
+              },
+              "Budget": {
+                "width": 136
+              },
+              "Rotten Tomatoes": {
+                "width": 188
+              },
+              "Cast": {
+                "width": 322
+              },
+              "Year": {
+                "width": 121
+              },
+              "Box office": {
+                "width": 172
+              },
+              "Wikipedia": {
+                "width": 157
+              }
+            },
+            "orderFields": [
+              "Films",
+              "Mil Score",
+              "Mil Score Legend",
+              "Remarks Summary",
+              "IMDb score",
+              "Rotten Tomatoes",
+              "Budget",
+              "Box office",
+              "Wikipedia",
+              "Year",
+              "Director",
+              "Screenwriter",
+              "Story",
+              "Cast",
+              "Cinematography",
+              "Editor",
+              "Music",
+              "Studio",
+              "Country",
+              "Watch",
+              "Folder",
+              "Script",
+              "First⌚👁",
+              "Last⌚👁",
+              "Created",
+              "Modified"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#ffbb00",
+                "condition": {
+                  "field": "Mil Score",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "+⭐"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "Films",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "cafe64d7-4c9f-4389-84af-ad9071a30a91",
+          "name": "Mil Film-TV Remarks LIST",
+          "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "Poster",
+            "fitStyle": "contain",
+            "includeFields": [
+              "Mil score",
+              "IMDb score",
+              "Rotten Tomatoes",
+              "Year",
+              "Mil Score",
+              "Remarks Summary"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#bd4b00",
+                "condition": {
+                  "field": "Mil score",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "+⭐"
+                }
+              },
+              {
+                "color": "#e08e00",
+                "condition": {
+                  "field": "Mil score",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "⭐"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "edc6d081-ce85-496f-aaa8-a9f3d6831b71",
+          "name": "Mil Film-TV Remarks POSTERS",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "groupByField": "Year"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "c79989fe-4985-4d00-a32a-54d385951b06",
+          "name": "Board",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "d3da4f7b-7b07-4fff-9106-350f7211970c",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "9c733d8d-86df-44aa-ba81-27534f5aaf35",
+      "name": "Mil Film-TV Remarks"
+    },
+    {
+      "fieldConfig": {
+        "Folder hierarchy tags": {
+          "richText": true
+        },
+        "Other tags": {
+          "richText": true
+        },
+        "File": {
+          "richText": true
+        },
+        "Folder": {
+          "richText": true
+        },
+        "Revised": {
+          "richText": true
+        },
+        "Version": {
+          "richText": true
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "dataview",
+        "config": {
+          "query": "TABLE without ID\n\tregexreplace(file.folder, \".*\\/([^\\/]+)$\", \"$1\") AS Folder, row[\"Folder hierarchy tags\"] AS \"Folder hierarchy tags\", row[\"Other tags\"] AS \"Other tags\", Image, Status, Version, choice(Finished = true, \"✔\", Finished) AS \"Finished\", Revised\nFROM \"🌌 Mil Notes/10 🌌 Production/100 🌌 Mil Stamenkovic -- Production/📂 Books 📚/📂 Neimenovani Mil SFRJ Novela Projekat\" OR \"\"\nWHERE contains(file.tags, \"/NeimenovaniMilSFRJNovelaProjekat\")"
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "File": {
+                "width": 661,
+                "hide": false,
+                "pinned": true
+              },
+              "Folder hierarchy tags": {
+                "width": 573,
+                "hide": true
+              },
+              "Other tags": {
+                "width": 476,
+                "hide": true
+              },
+              "Folder": {
+                "width": 325
+              },
+              "Poster": {
+                "hide": true
+              },
+              "Finished": {
+                "hide": false,
+                "width": 136
+              },
+              "Revised": {
+                "width": 204
+              },
+              "Image": {
+                "hide": true
+              },
+              "Status": {
+                "hide": false,
+                "width": 148
+              }
+            },
+            "orderFields": [
+              "File",
+              "Folder",
+              "Version",
+              "Status",
+              "Revised"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#00ff00",
+                "condition": {
+                  "field": "Status",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "Trenutno u radu"
+                }
+              },
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "Status",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "Završeno"
+                }
+              },
+              {
+                "color": "#ff00ff",
+                "condition": {
+                  "field": "Status",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "Revizirati"
+                }
+              },
+              {
+                "color": "#0000ff",
+                "condition": {
+                  "field": "Folder",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "SFRJ"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "Folder",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "C Ver"
+                }
+              },
+              {
+                "color": "#ffffff",
+                "condition": {
+                  "field": "Folder",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "D Ver"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "Folder",
+                "order": "desc",
+                "enabled": true
+              },
+              {
+                "field": "File",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "983838a7-29a0-4a6d-9257-abc3873798fc",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "Image",
+            "fitStyle": "cover",
+            "includeFields": []
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "7d604cf5-4ea0-4e6e-9c97-a65f9d313ca2",
+          "name": "Gallery",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "groupByField": "Folder",
+            "columns": {
+              "📂 Neimenovani Mil SFRJ Novela Projekat": {
+                "weight": 0
+              },
+              "📂 + B Verzija": {
+                "weight": 1
+              },
+              "📂 C Verzija": {
+                "weight": 2
+              },
+              "📂 Prepravke Oktobar 2024": {
+                "weight": 3
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "4ad7a6db-4676-4c4b-b099-aba37aba4511",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "2c4f1e30-26ce-4c33-b096-44379e2c6bc5",
+      "name": "Kombinat - SFRJ Novela"
+    },
+    {
+      "fieldConfig": {
+        "File": {
+          "richText": true
+        },
+        "Mil Watched Films": {
+          "richText": true
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "dataview",
+        "config": {
+          "query": "TABLE WITHOUT ID\nL.text AS \"Mil Watched Films\"\nFLATTEN file.lists AS L\nWHERE contains(L.text, \"- \")\nWHERE contains(file.tags, \"/MilWatchedFilmsTV\")"
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "File": {
+                "width": 509,
+                "hide": true,
+                "pinned": false
+              },
+              "Watched": {
+                "width": 1098,
+                "hide": false
+              },
+              "FILMS": {
+                "hide": false
+              },
+              "Value": {
+                "width": 179
+              },
+              "": {
+                "hide": false
+              },
+              "Bullet Points": {
+                "width": 944
+              },
+              "Mil Watched Films": {
+                "width": 1397
+              }
+            },
+            "orderFields": [
+              "File",
+              "Watched"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a3030b2b-fb03-4a5c-84f2-df5366557db1",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "includeFields": [],
+            "groupByField": "Mil Watched Films"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "ea0d035d-340d-4cb5-a279-0dd37da7c7c9",
+          "name": "Board",
+          "type": "board"
+        },
+        {
+          "config": {
+            "coverField": "",
+            "includeFields": []
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "ffa9ffc4-863e-4e0c-bf56-12f0614d9ac3",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "id": "b08e5d24-d2ad-4e84-830a-1af00ee205b2",
+      "name": "Mil Watched Films & TV"
+    },
+    {
+      "fieldConfig": {
+        "\"Prvo gledanje\"": {
+          "richText": true
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "dataview",
+        "config": {
+          "query": "TABLE\nFilm, Ocena, PG AS \"Prvo gledanje\"\nFROM #TestiranjeTabele\nFLATTEN row[\"Film\"] AS Film\nFLATTEN row[\"Ocena\"] AS Ocena\nFLATTEN row[\"PG\"] AS PG"
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "File": {
+                "width": 304,
+                "hide": true
+              },
+              "Film": {
+                "width": 825
+              },
+              "Prvo gledanje": {
+                "width": 266
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "248a6448-7df9-4985-aec7-c03b27ccf9d1",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "3669c826-b6a6-4d6a-9d4f-f3132dfb2428",
+      "name": "test"
+    },
+    {
+      "fieldConfig": {
+        "Folder hierarchy tags": {
+          "richText": true
+        },
+        "Other tags": {
+          "richText": true
+        },
+        "File": {
+          "richText": true
+        },
+        "Folder": {
+          "richText": true
+        },
+        "Revised": {
+          "richText": true
+        },
+        "Version": {
+          "richText": true
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "dataview",
+        "config": {
+          "query": "TABLE without ID\n\tregexreplace(file.folder, \".*\\/([^\\/]+)$\", \"$1\") AS Folder, row[\"Folder hierarchy tags\"] AS \"Folder hierarchy tags\", row[\"Other tags\"] AS \"Other tags\", Image, Version, choice(Finished = true, \"✔\", Finished) AS \"Finished\", Revised\nFROM \"🌌 Mil Notes/10 🌌 Production/100 🌌 Mil Stamenkovic -- Production/📂 Books 📚/📂 Untitled Mil Dead Inspector Project\" OR \"\"\nWHERE contains(file.tags, \"/UntitledMilDeadInspectorProject\")"
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "File": {
+                "width": 661,
+                "hide": false,
+                "pinned": true
+              },
+              "Folder hierarchy tags": {
+                "width": 573,
+                "hide": true
+              },
+              "Other tags": {
+                "width": 476,
+                "hide": true
+              },
+              "Folder": {
+                "width": 325
+              },
+              "Poster": {
+                "hide": true
+              },
+              "Finished": {
+                "hide": false,
+                "width": 136
+              },
+              "Revised": {
+                "width": 204
+              },
+              "Image": {
+                "hide": true
+              },
+              "Version": {
+                "width": 300
+              }
+            },
+            "orderFields": [
+              "File",
+              "Folder",
+              "Version",
+              "Revised",
+              "Folder hierarchy tags",
+              "Other tags"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "Folder",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "+"
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "File",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "+"
+                }
+              },
+              {
+                "color": "#00ff00",
+                "condition": {
+                  "field": "Folder",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "C Ver"
+                }
+              },
+              {
+                "color": "#0000ff",
+                "condition": {
+                  "field": "Version",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "Univerzalno"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "Folder",
+                "order": "desc",
+                "enabled": true
+              },
+              {
+                "field": "File",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "c6e7f9ec-9c15-47a7-ac63-0ebee68844b7",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "Image",
+            "fitStyle": "cover",
+            "includeFields": []
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "eeada402-f14e-4d08-8f6e-f542c74d3f9e",
+          "name": "Gallery",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "groupByField": "Folder"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b5a39ef0-3ff7-44ca-857a-5c4360fabf2b",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "85eb4438-963d-4bb4-b190-1ea1517acab5",
+      "name": "Crvena Kiša"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "sunday"
+    },
+    "commands": [
+      {
+        "project": "9c733d8d-86df-44aa-ba81-27534f5aaf35",
+        "view": "cafe64d7-4c9f-4389-84af-ad9071a30a91"
+      },
+      {
+        "project": "2c4f1e30-26ce-4c33-b096-44379e2c6bc5",
+        "view": "983838a7-29a0-4a6d-9257-abc3873798fc"
+      }
+    ],
+    "linkBehavior": "open-note"
+  }
+}

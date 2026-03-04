@@ -1,0 +1,13 @@
+{
+	"id": "folder-navigator",
+	"name": "Folder Navigator",
+	"version": "0.5.0",
+	"minAppVersion": "1.5.3",
+	"description": "Quickly navigate to folders in your vault using fuzzy search.",
+	"author": "wenlzhang",
+	"authorUrl": "https://github.com/wenlzhang",
+	"fundingUrl": {
+		"Buy Me a Coffee": "https://ko-fi.com/f84556"
+	},
+	"isDesktopOnly": false
+}

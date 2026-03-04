@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "581474b565887a64",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad78df717de86637",
+        "type": "leaf",
+        "dimension": 49.728752260397826,
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "10 📝 Mil Notes/📁 Film 🎞/📁 Mil Film Remarks/Godzilla - King of the Monsters -- Mil Film Remarks.md",
+            "mode": "source"
+          }
+        },
+        "group": "f8ab88863ea908f5"
+      },
+      {
+        "id": "fe5cf9dd3d95be13",
+        "type": "leaf",
+        "dimension": 50.27124773960217,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "10 📝 Mil Notes/📁 Film 🎞/📁 Mil Film Remarks/Godzilla - King of the Monsters -- Mil Film Remarks.md",
+            "mode": "preview"
+          }
+        },
+        "group": "f8ab88863ea908f5"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "89c9c0085d1ea5d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d360d074cad4a278",
+        "type": "tabs",
+        "dimension": 65.38987688098496,
+        "children": [
+          {
+            "id": "1695d04877e0fe47",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "07013163aac7125f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Film",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "dd392b2f46539260",
+        "type": "tabs",
+        "dimension": 34.61012311901504,
+        "children": [
+          {
+            "id": "1428c6ee4b377402",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "10 📝 Mil Notes/📁 Film 🎞/📁 Mil Film Remarks/Godzilla - King of the Monsters -- Mil Film Remarks.md"
+              }
+            }
+          },
+          {
+            "id": "b476b65d5b0ff0a3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f87bb31e34a2af26",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "10 📝 Mil Notes/📁 Film 🎞/📁 Mil Film Remarks/Godzilla - King of the Monsters -- Mil Film Remarks.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "e18c1cb60d0ac0be",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b5776e78949faa53",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "26b1e25290c771ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 📁 TO DO/❗🔲 To Do.md",
+                "mode": "preview"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 231
+  },
+  "right": {
+    "id": "0383119ab731ae73",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "10 📝 Mil Notes/📁 Film 🎞/📁 Mil Film Remarks/Godzilla - King of the Monsters -- Mil Film Remarks.md",
+    "10 📝 Mil Notes/📁 Film 🎞/📁 Mil Film Remarks/Godzilla (2014) -- Mil Film Remarks.md",
+    "10 📝 Mil Notes/📁 Film 🎞/📁 Mil Film Remarks/Gojira -- Mil Film Remarks.md",
+    "10 📝 Mil Notes/📁 Film 🎞/📁 Mil Film Remarks/Kong - Skull Island -- Mil Film Remarks.md",
+    "10 📝 Mil Notes/📁 Film 🎞/📁 Mil Film Remarks/Gojira, Mosura, Kingu Gidorâ - Daikaijû sôkôgeki.md",
+    "10 📝 Mil Notes/📁 Film 🎞/📁 Mil Film Remarks/Eyes Wide Shut -- Mil Film Remarks.md",
+    "10 📝 Mil Notes/📁 Film 🎞/📁 Mil Film Remarks/MonsterVerse -- Mil Film Remarks.md",
+    "📒 Notes/List of all notes.md",
+    "10 📝 Mil Notes/📁 Film 🎞/📁 Mil Film Remarks/Godzilla - King of the Monsters.md",
+    "00 📁 tmp Notes/tmp Film Notes.md"
+  ]
+}

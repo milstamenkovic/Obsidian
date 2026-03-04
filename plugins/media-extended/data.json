@@ -1,0 +1,8 @@
+{
+  "__VERSION__": 2,
+  "release.previous-version": "4.1.5",
+  "playback.default-volume": 90,
+  "playback.preserve-pitch": false,
+  "note.template.timestamp": "\n{{TIMESTAMP}}: \n",
+  "note.template.timestamp-offset": 2
+}
