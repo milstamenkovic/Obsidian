@@ -4,8 +4,6 @@ workspace.json
 
 workspaces.json
 
-workspace-MilStamenkovicHonorMagicBookX15.json
+workspace-*.json
 
-workspaces-MilStamenkovicHonorMagicBookX15.json
-
-
+workspaces-*.json
