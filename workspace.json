@@ -43,7 +43,8 @@
                   "title": "Daily Calendars - Templates"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "c8409915ac3ec3be",
@@ -196,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌌 Mil Notes/00 📝 Personal/-00 ⏳ tmp Notes/⭐ 0 tmp Notes.md",
+                "file": "🌌 Mil Notes/x Templates 🛑🔒/📂 Template Calendars/Daily Calendars - Templates.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ⭐ 0 tmp Notes"
+              "title": "Outline of Daily Calendars - Templates"
             }
           },
           {
@@ -309,10 +310,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "543c71387ad527cd",
+  "active": "6c675f3d2ddfaaca",
   "lastOpenFiles": [
-    "🌌 Mil Notes/x Templates 🛑🔒/📂 Template Calendars/Daily Calendars - Templates.md",
     "🌌 Mil Notes/00 📝 Personal/-00 ⏳ tmp Notes/⭐ 0 tmp Notes.md",
+    "🌌 Mil Notes/x Templates 🛑🔒/📂 Template Calendars/Daily Calendars - Templates.md",
     "🌌 Mil Notes/00 📝 Personal/📂 Mil Stamenkovic/Life - Milan Stamenkovic.md",
     "🌌 Mil Notes/x Templates 🛑🔒/📂 Template Calendars",
     "🌌 Mil Notes/00 📝 Personal/📂 Film-TV 🎞📺/📂 0 Mil Film-TV Remarks/Blade Runner 2049 (2017) -- Mil Film Remarks.md",
