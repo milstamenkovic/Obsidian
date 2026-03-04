@@ -1,0 +1,24 @@
+/* Mil LivePreview Yellow - Custom CSS snippet for Yellow mode for LivePreview view by Mil Stamenković*/
+/* © 2026 Mil Stamenković */
+/* Additional help by Free Claude AI */
+/* Created  2024. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 26.02.2026. - Ćuprija, Serbia - Mil Stamenković */
+
+
+
+/* This is for NOTE text and background color */
+.is-live-preview {
+    background: #FFF6DE;
+    color: black;
+}
+
+/* Change color for text while being HIGHLIGHTED - Changes also in EDITOR mode */
+.cm-s-obsidian span.cm-highlight {
+    color: #858585;
+}
+
+/* Black screen around working area in note */
+.markdown-preview-view,.markdown-source-view {
+    max-width: 900px;
+    margin: auto;
+}
