@@ -1,0 +1,524 @@
+/* Mil Theme for Obsidian */
+/* Minimal Light/Dark — Two modes, one soul */
+/* © 2026 Mil Stamenković */
+/* Created with help by Free Claude AI */
+/* 04.03.2026. - Ćuprija, Serbia */
+
+
+
+/*  COLOR PALETTE REFERENCE */
+/*  Dark mode:   bg #0F0F0F  |  text #c8c8c8  |  accent #871600 */
+/*  Yellow mode: bg #FFF6DE  |  text #000000  |  accent #871600 */
+/*  Active/hover deep red:  #4e0d00  |  #240600 */
+
+
+
+/*  GLOBAL CSS VARIABLES — DARK MODE (default) */
+
+.theme-dark {
+    /* Backgrounds */
+    --background-primary:           red;
+    --background-primary-alt:       red;
+    /* UI colors SECONDARY */
+    --background-secondary:         green;
+    --background-secondary-alt:     green;
+    --background-modifier-border:   blue;
+    --background-modifier-form-field: blue;
+    --background-modifier-hover:    cyan;
+    --background-modifier-active-hover: cyan;
+
+    /* Text */
+    --text-normal:                  #c8c8c8;
+    --text-muted:                   #999999;
+    --text-faint:                   #666666;
+    --text-on-accent:               #ffffff;
+    --text-accent:                  #871600;
+    --text-accent-hover:            #a81e00;
+
+    /* Links */
+    --link-color:                   #ff2200;
+    --link-color-hover:             #ff4422;
+    --link-unresolved-color:        #871600;
+    --link-unresolved-opacity:      0.8;
+
+    /* Code */
+    --code-background:              #1e1e1e;
+    --code-normal:                  #e06c75;
+    --code-comment:                 #666666;
+    --code-string:                  #c8c8c8;
+    --code-keyword:                 #871600;
+
+    /* Interactive */
+    --interactive-normal:           #1e1e1e;
+    --interactive-hover:            #240600;
+    --interactive-accent:           #871600;
+    --interactive-accent-hover:     #a81e00;
+
+    /* UI Elements */
+    --scrollbar-bg:                 #0F0F0F;
+    --scrollbar-thumb-bg:           #2a2a2a;
+    --divider-color:                #2a2a2a;
+
+    /* Indentation guides — removed */
+    --indentation-guide-width:      0px;
+    --indentation-guide-color:      transparent;
+    --indentation-guide-color-active: transparent;
+
+    /* Tables */
+    --background-table:             #0F0F0F;
+    --text-table:                   #c8c8c8;
+    --border-table:                 #2a2a2a;
+
+    /* Tags */
+    --tag-color:                    #c8c8c8;
+    --tag-background:               #240600;
+    --tag-color-hover:              #ffffff;
+    --tag-background-hover:         #4e0d00;
+
+    /* Highlight */
+    --text-highlight-bg:            #4e0d00;
+    --text-highlight-bg-active:     #871600;
+}
+
+
+
+
+/*  GLOBAL CSS VARIABLES — LIGHT / YELLOW MODE */
+
+.theme-light {
+    /* Backgrounds */
+    --background-primary:           #FFF6DE;
+    --background-primary-alt:       #FFF0CE;
+    --background-secondary:         #FFF0CE;
+    --background-secondary-alt:     #FFE9B8;
+    --background-modifier-border:   #d4c9a8;
+    --background-modifier-form-field: #FFF6DE;
+    --background-modifier-hover:    #240600;
+    --background-modifier-active-hover: #4e0d00;
+
+    /* Text */
+    --text-normal:                  #000000;
+    --text-muted:                   #444444;
+    --text-faint:                   #888888;
+    --text-on-accent:               #ffffff;
+    --text-accent:                  #871600;
+    --text-accent-hover:            #a81e00;
+
+    /* Links */
+    --link-color:                   #871600;
+    --link-color-hover:             #a81e00;
+    --link-unresolved-color:        #871600;
+    --link-unresolved-opacity:      0.6;
+
+    /* Code */
+    --code-background:              #f0e8c8;
+    --code-normal:                  #871600;
+    --code-comment:                 #888888;
+    --code-string:                  #000000;
+    --code-keyword:                 #871600;
+
+    /* Interactive */
+    --interactive-normal:           #FFF0CE;
+    --interactive-hover:            #240600;
+    --interactive-accent:           #871600;
+    --interactive-accent-hover:     #a81e00;
+
+    /* UI Elements */
+    --scrollbar-bg:                 #FFF6DE;
+    --scrollbar-thumb-bg:           #d4c9a8;
+    --divider-color:                #d4c9a8;
+
+    /* Indentation guides — removed */
+    --indentation-guide-width:      0px;
+    --indentation-guide-color:      transparent;
+    --indentation-guide-color-active: transparent;
+
+    /* Tables */
+    --background-table:             transparent;
+    --text-table:                   #000000;
+    --border-table:                 #000000;
+
+    /* Tags */
+    --tag-color:                    #ffffff;
+    --tag-background:               #871600;
+    --tag-color-hover:              #ffffff;
+    --tag-background-hover:         #4e0d00;
+
+    /* Highlight */
+    --text-highlight-bg:            #f5d87a;
+    --text-highlight-bg-active:     #e8c84a;
+}
+
+
+
+
+/*  BASE LAYOUT */
+
+body {
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+}
+
+
+
+
+/*  EDITOR — LIVE PREVIEW VIEW */
+
+.markdown-source-view.mod-cm6.is-live-preview,
+.markdown-preview-view {
+    background-color: var(--background-primary);
+    --background-primary: var(--background-primary);
+    --background-primary-alt: var(--background-primary-alt);
+    --background-secondary: var(--background-secondary);
+    --background-secondary-alt: var(--background-secondary-alt);
+    --background-modifier-border: var(--background-modifier-border);
+    --background-modifier-form-field: var(--background-modifier-form-field);
+    color: var(--text-normal);
+}
+
+
+
+
+/*  EDITOR — SOURCE VIEW */
+
+.markdown-source-view.mod-cm6.is-source {
+    --background-primary: var(--background-primary);
+    --background-primary-alt: var(--background-primary-alt);
+    --background-secondary: var(--background-secondary);
+    --background-secondary-alt: var(--background-secondary-alt);
+    --background-modifier-border: var(--background-modifier-border);
+    --background-modifier-form-field: var(--background-modifier-form-field);
+    --text-normal: var(--text-normal);
+    --text-muted: var(--text-muted);
+    --text-faint: var(--text-faint);
+    --text-on-accent: var(--text-on-accent);
+    --link-color: var(--link-color);
+    --link-unresolved-color: var(--link-unresolved-color);
+    --code-background: var(--code-background);
+    --code-normal: var(--code-normal);
+    --indentation-guide-width: 0px;
+    --indentation-guide-color: transparent;
+    --indentation-guide-color-active: transparent;
+    color: var(--text-normal);
+    background-color: var(--background-primary);
+}
+
+
+
+
+/*  HEADINGS  */
+
+.cm-header-1 { color: var(--text-normal); font-size: 1.8em; }
+.cm-header-2 { color: var(--text-normal); font-size: 1.6em; }
+.cm-header-3 { color: var(--text-normal); font-size: 1.4em; }
+.cm-header-4 { color: var(--text-normal); font-size: 1.2em; }
+.cm-header-5 { color: var(--text-normal); font-size: 1.1em; }
+.cm-header-6 { color: var(--text-normal); font-size: 1.0em; }
+
+/* Reading / Preview mode headings */
+.markdown-preview-view h1 { color: var(--text-normal); font-size: 1.8em; }
+.markdown-preview-view h2 { color: var(--text-normal); font-size: 1.6em; }
+.markdown-preview-view h3 { color: var(--text-normal); font-size: 1.4em; }
+.markdown-preview-view h4 { color: var(--text-normal); font-size: 1.2em; }
+.markdown-preview-view h5 { color: var(--text-normal); font-size: 1.1em; }
+.markdown-preview-view h6 { color: var(--text-normal); font-size: 1.0em; }
+
+
+
+
+/*  HIGHLIGHTS  ==text== */
+
+.cm-highlight,
+mark {
+    background-color: var(--text-highlight-bg);
+    color: var(--text-normal) !important;
+    border-radius: 2px;
+    padding: 0 2px;
+}
+
+/* Highlight inside tables */
+table mark,
+table .cm-highlight {
+    color: var(--text-table) !important;
+}
+
+
+
+
+/*  TABLES */
+
+table {
+    background-color: var(--background-table) !important;
+    border-color: var(--border-table) !important;
+}
+
+table th,
+table td {
+    background-color: var(--background-table) !important;
+    border-color: var(--border-table) !important;
+    color: var(--text-table) !important;
+}
+
+
+
+
+/*  CHECKBOXES — no strikethrough on completed tasks */
+
+.task-list-item.is-checked {
+    text-decoration: none !important;
+}
+
+
+
+
+/*  TAGS */
+
+.tag {
+    background-color: var(--tag-background);
+    color: var(--tag-color) !important;
+    border: none;
+    border-radius: 3px;
+    padding: 1px 6px;
+    font-size: 0.85em;
+}
+
+.tag:hover {
+    background-color: var(--tag-background-hover);
+    color: var(--tag-color-hover) !important;
+}
+
+
+
+
+/*  LINKS */
+
+a,
+.cm-hmd-internal-link,
+.internal-link {
+    color: var(--link-color) !important;
+}
+
+a:hover,
+.cm-hmd-internal-link:hover,
+.internal-link:hover {
+    color: var(--link-color-hover) !important;
+}
+
+.cm-link {
+    color: var(--link-color) !important;
+}
+
+.is-unresolved {
+    color: var(--link-unresolved-color) !important;
+    opacity: var(--link-unresolved-opacity);
+}
+
+
+
+
+/*  CODE BLOCKS */
+
+code {
+    background-color: var(--code-background);
+    color: var(--code-normal);
+    border-radius: 3px;
+    padding: 1px 4px;
+}
+
+pre code {
+    background-color: var(--code-background);
+    color: var(--code-normal);
+    padding: 0;
+}
+
+pre {
+    background-color: var(--code-background);
+    border-radius: 4px;
+    padding: 12px;
+}
+
+
+
+
+/*  SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb-bg);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--interactive-accent);
+}
+
+
+
+
+/*  FILE EXPLORER — ACTIVE & HOVER STATES */
+
+
+/* Active note file */
+.tree-item-self.nav-file-title.tappable.is-clickable.is-active {
+    background-color: #4e0d00 !important;
+    color: #c8c8c8 !important;
+    box-shadow: none !important;
+}
+
+/* First parent folder of active note */
+.tree-item.nav-folder:has(> .tree-item-children > .tree-item.nav-file > .is-active) > .tree-item-self.nav-folder-title {
+    background-color: #4e0d00 !important;
+}
+
+/* All ancestor folders of active note */
+.tree-item.nav-folder:has(> .tree-item-children .is-active) > .tree-item-self.nav-folder-title {
+    background-color: #240600 !important;
+}
+
+/* Hover over any file/folder */
+.tree-item-self:hover {
+    background-color: #240600 !important;
+}
+
+
+
+
+/*  ICONS */
+
+.vertical-tab-nav-item.tappable.is-active,
+.workspace-tab-header-inner-icon,
+.nav-action-button svg,
+.side-dock-ribbon-action svg,
+.clickable-icon svg {
+    color: #871600 !important;
+}
+
+
+
+
+/*  [[ ]] SUGGESTION MENU */
+
+.suggestion-item.is-selected {
+    background-color: #871600 !important;
+    color: #ffffff !important;
+}
+
+.suggestion-item.is-selected .suggestion-note {
+    color: #ffffff !important;
+}
+
+
+
+
+/*  SIDEBAR & WORKSPACE CHROME */
+
+.workspace-ribbon,
+.workspace-sidedock-vault-profile {
+    background-color: var(--background-secondary);
+}
+
+.nav-header {
+    background-color: var(--background-secondary);
+}
+
+/* Tab headers */
+.workspace-tab-header {
+    background-color: var(--background-secondary);
+    color: var(--text-muted);
+}
+
+.workspace-tab-header.is-active {
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+}
+
+/* Status bar */
+.status-bar {
+    background-color: var(--background-secondary);
+    border-top: 1px solid var(--divider-color);
+    color: var(--text-faint);
+    font-size: 0.8em;
+}
+
+
+
+
+/*  MODAL & COMMAND PALETTE */
+
+.modal {
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    color: var(--text-normal);
+}
+
+.prompt {
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+}
+
+.prompt-input {
+    background-color: var(--background-modifier-form-field);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+}
+
+.suggestion-item.is-selected {
+    background-color: #871600 !important;
+    color: #ffffff !important;
+}
+
+
+
+
+/*  SETTINGS PANEL */
+
+.vertical-tab-nav-item.is-active {
+    background-color: #4e0d00 !important;
+    color: #ffffff !important;
+}
+
+.vertical-tab-nav-item:hover {
+    background-color: #240600 !important;
+    color: #c8c8c8 !important;
+}
+
+
+
+
+/*  BLOCKQUOTES */
+
+blockquote {
+    border-left: 3px solid #871600;
+    padding-left: 12px;
+    color: var(--text-muted);
+    margin-left: 0;
+}
+
+
+
+
+/*  HORIZONTAL RULE */
+
+hr {
+    border: none;
+    border-top: 1px solid var(--divider-color);
+    margin: 1.5em 0;
+}
+
+
+
+
+/*  SELECTION */
+
+::selection {
+    background-color: #871600;
+    color: #ffffff;
+}
