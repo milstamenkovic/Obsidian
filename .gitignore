@@ -1,9 +1,11 @@
-.obsidian/
+# Ignore everything
+*
 
-workspace.json
+# Un-ignore .gitignore itself (so it gets pushed too)
+!.gitignore
 
-workspaces.json
-
-workspace-*.json
-
-workspaces-*.json
+# Un-ignore snippets and themes folders
+!snippets/
+!snippets/**
+!themes/
+!themes/**
