@@ -1,7 +1,11 @@
 {
   "name": "Mil Theme",
-  "version": "1.0.0",
-  "minAppVersion": "1.0.0",
+  "version": "A",
+  "minAppVersion": "A",
   "author": "Mil Stamenković",
-  "authorUrl": "milstamenkovic.github.io"
+  "authorUrl": "milstamenkovic.github.io",
+  "copyright": "© 2026 Mil Stamenković",
+  "created": "05.03.2026. - Ćuprija, Serbia",
+  "revised": "05.03.2026. - Ćuprija, Serbia",
+  "published": "n/n - n/n"
 }
