@@ -1,7 +1,7 @@
 /* Mil Floating Headings - Custom CSS snippet for Floating Headings plugin by Mil Stamenković */
 /* © 2026 Mil Stamenković */
 /* Created: 22.02.2026. - Ćuprija, Serbia - Mil Stamenković */
-/* Revised: 03.03.2026. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 05.03.2026. - Ćuprija, Serbia - Mil Stamenković */
 
 /* TO DO */
 /* ✔) Push collapsed heading to the right margin - 0 space? */
@@ -29,6 +29,7 @@
 .floating-headings-expanded {
     height: 90vh !important;
     max-height: 90vh !important;
+    border: none !important;
 }
 
 /* Headings in Outline - Text color is red */

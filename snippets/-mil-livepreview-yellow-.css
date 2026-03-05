@@ -2,7 +2,7 @@
 /* © 2026 Mil Stamenković */
 /* Additional help by Free Claude AI */
 /* Created  02.03.2026. - Ćuprija, Serbia - Mil Stamenković */
-/* Revised: 02.03.2026. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 05.03.2026. - Ćuprija, Serbia - Mil Stamenković */
 
 
 
@@ -22,17 +22,20 @@
 
 
 
+
 /* LivePreview view */
 .markdown-source-view.mod-cm6.is-live-preview, .markdown-preview-view {
+    /* Note background color */
     background-color: #FFF6DE;
-    --background-primary: #FFF6DE;
-    --background-primary-alt: #FFF6DE;
-    --background-secondary: #FFF6DE;
-    --background-secondary-alt: #FFF6DE;
-    --background-modifier-border: #FFF6DE;
-    --background-modifier-form-field: #FFF6DE;
-   
+    /* Text color */
     color: #000000; 
+    /* Other colors */
+    --background-primary: #000000;
+    --background-primary-alt: #FFF6DE;
+    --background-secondary: #131313;
+    --background-secondary-alt: #FFF6DE;
+    --background-modifier-border: #871600;
+    --background-modifier-form-field: #131313;
 }
 
 /* LivePreview and Source view */
@@ -157,7 +160,6 @@ table .cm-highlight {
 
 
 /* [[]] menu colors */
-
 .suggestion-item.is-selected {
     background-color: #871600 !important; /* Selected item background */
     color: #c8c8c8 !important;
@@ -169,4 +171,13 @@ table .cm-highlight {
 
 
 
+/* Text Input Fields */
+input[type='text'] {
+    background-color: inherit !important;
+    border: none !important;
+}
 
+input[type='text']:hover {
+    background-color: inherit !important;
+    border: none !important;
+}

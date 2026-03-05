@@ -2,7 +2,7 @@
 /* © 2026 Mil Stamenković */
 /* Additional help by Free Claude AI */
 /* Created: 13.02.2026. - Ćuprija, Serbia - Mil Stamenković */
-/* Revised: 26.02.2026. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 05.03.2026. - Ćuprija, Serbia - Mil Stamenković */
 
 
 
@@ -163,7 +163,6 @@ table .cm-highlight {
 
 
 /* [[]] menu colors */
-
 .suggestion-item.is-selected {
     background-color: #871600 !important; /* Selected item background */
     color: #ffffff !important;
@@ -171,4 +170,17 @@ table .cm-highlight {
 
 .suggestion-item.is-selected .suggestion-note {
     color: #fffffF !important;
+}
+
+
+
+/* Text Input Fields */
+input[type='text'] {
+    background-color: inherit !important;
+    border: none !important;
+}
+
+input[type='text']:hover {
+    background-color: inherit !important;
+    border: none !important;
 }
