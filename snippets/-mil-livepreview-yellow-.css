@@ -22,7 +22,6 @@
 
 
 
-
 /* LivePreview view */
 .markdown-source-view.mod-cm6.is-live-preview, .markdown-preview-view {
     /* Note background color */
@@ -31,9 +30,9 @@
     color: #000000; 
     /* Other colors */
     --background-primary: #000000;
-    --background-primary-alt: #FFF6DE;
+    --background-primary-alt: magenta;
     --background-secondary: #131313;
-    --background-secondary-alt: #FFF6DE;
+    --background-secondary-alt: magenta;
     --background-modifier-border: #871600;
     --background-modifier-form-field: #131313;
 }
@@ -112,6 +111,18 @@ table .cm-highlight {
     color: var(--text-table) !important;
 }
 
+/* Tables inside callouts - Inherit callout background color */
+.callout table {
+    background-color: inherit !important;
+}
+
+.callout table th,
+.callout table td {
+    background-color: inherit !important;
+    border-color: #000000 !important;
+    color: var(--text-table) !important;
+}
+
 
 
 /* Never crossout text after Checkboxes */
@@ -180,4 +191,10 @@ input[type='text'] {
 input[type='text']:hover {
     background-color: inherit !important;
     border: none !important;
+}
+
+/* Black screen around working area in note */
+.markdown-preview-view,.markdown-source-view {
+    max-width: 960px;
+    margin: auto;
 }

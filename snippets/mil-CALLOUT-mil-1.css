@@ -30,8 +30,8 @@
 
 /* Line space between bullet points/list items */
 .callout[data-callout="mil-1"] .callout-content li {
-  margin-top: 1.5em !important;
-  margin-bottom: 1.5em !important;
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
 }
 
 /* Mouse clicks DISABLED inside Callout content */
@@ -61,8 +61,3 @@
 .task-list-item.is-checked {
   color: inherit !important;
 }
-
-
-
-
-

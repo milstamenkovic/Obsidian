@@ -59,7 +59,7 @@
     --link-unresolved-opacity:      0.8;
 
     /* Code */
-    --code-background:              #1e1e1e;
+    --code-background:              yellow;
     --code-normal:                  #e06c75;
     --code-comment:                 #666666;
     --code-string:                  #c8c8c8;
@@ -93,8 +93,9 @@
     --tag-background-hover:         #4e0d00;
 
     /* Highlight */
-    --text-highlight-bg:            #4e0d00;
-    --text-highlight-bg-active:     #871600;
+    --text-highlight-bg:            #f5d87a;
+    --text-highlight-bg-active:     #f5d87a;
+    --text-highlight-color:         #000000;
 }
 
 
@@ -163,7 +164,8 @@
 
     /* Highlight */
     --text-highlight-bg:            #f5d87a;
-    --text-highlight-bg-active:     #e8c84a;
+    --text-highlight-bg-active:     #f5d87a;
+    --text-highlight-color:         #000000;
 }
 
 
@@ -544,3 +546,14 @@ hr {
     background-color: #871600;
     color: #ffffff;
 }
+
+
+
+
+
+
+
+
+
+
+
