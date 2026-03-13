@@ -5,6 +5,8 @@
 !.gitignore
 
 # Un-ignore snippets and themes folders
+!scripts/
+!scripts/**
 !snippets/
 !snippets/**
 !themes/

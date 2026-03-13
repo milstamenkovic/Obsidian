@@ -1,5 +1,5 @@
-/* Mil Theme for Obsidian */
-/* Minimal Light/Dark theme created by Mil Stamenković */
+/* Mil Lighter Theme for Obsidian */
+/* Minimal Lighter Light/Dark theme created by Mil Stamenković */
 /* Version A */
 /* © 2026 Mil Stamenković */
 /* Created with help by Free Claude AI */
@@ -34,14 +34,14 @@
 
 .theme-dark {
     /* Backgrounds */
-    --background-primary:           red;
-    --background-primary-alt:       red;
+    --background-primary:               red;
+    --background-primary-alt:           red;
     /* UI colors SECONDARY */
-    --background-secondary:         green;
-    --background-secondary-alt:     green;
-    --background-modifier-border:   blue;
-    --background-modifier-form-field: blue;
-    --background-modifier-hover:    cyan;
+    --background-secondary:             green;
+    --background-secondary-alt:         green;
+    --background-modifier-border:       blue;
+    --background-modifier-form-field:   blue;
+    --background-modifier-hover:        cyan;
     --background-modifier-active-hover: cyan;
 
     /* Text */
@@ -104,14 +104,15 @@
 
 .theme-light {
     /* Backgrounds */
-    --background-primary:           #FFF6DE;
-    --background-primary-alt:       #FFF0CE;
-    --background-secondary:         #FFF0CE;
-    --background-secondary-alt:     #FFE9B8;
-    --background-modifier-border:   #d4c9a8;
-    --background-modifier-form-field: #FFF6DE;
-    --background-modifier-hover:    #240600;
-    --background-modifier-active-hover: #4e0d00;
+    --background-primary:               red;
+    --background-primary-alt:           red;
+    /* UI colors SECONDARY */
+    --background-secondary:             green;
+    --background-secondary-alt:         green;
+    --background-modifier-border:       blue;
+    --background-modifier-form-field:   blue;
+    --background-modifier-hover:        cyan;
+    --background-modifier-active-hover: cyan;
 
     /* Text */
     --text-normal:                  #000000;
@@ -176,7 +177,7 @@ body {
     color: var(--text-normal);
 
     /* Custom Mil Courier font */
-    --font-text: 'Mil Courier New';
+    --font-text:      'Mil Courier New';
     --font-interface: 'Mil Courier New';
     --font-monospace: 'Mil Courier New';
 }

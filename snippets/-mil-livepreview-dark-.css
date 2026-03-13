@@ -18,6 +18,8 @@
 * {
     --text-table: #c8c8c8;
     --background-table: #0F0F0F; 
+    --text-editor: red;
+    --text-heading: #a0a0a0;
 }
 
 /* LivePreview view */
@@ -73,24 +75,32 @@
     color: #c8c8c8 !important;
 }
 
+
+
 /* Headers */
 .cm-header-1 {
-    color: #c8c8c8; font-size: 1.8em;
+    color: var(--text-heading);
+    font-size: 1.8em;
 }
 .cm-header-2 {
-    color: #c8c8c8; font-size: 1.6em;
+    color: var(--text-heading);
+    font-size: 1.6em;
 }
 .cm-header-3 {
-    color: #c8c8c8; font-size: 1.4em;
+    color: var(--text-heading);
+    font-size: 1.4em;
 }
 .cm-header-4 {
-    color: #c8c8c8; font-size: 1.2em;
+    color: var(--text-heading);
+    font-size: 1.2em;
 }
 .cm-header-5 {
-    color: #c8c8c8; font-size: 1.1em;
+    color: var(--text-heading);
+    font-size: 1.1em;
 }
 .cm-header-6 {
-    color: #c8c8c8; font-size: 1.0em;
+    color: var(--text-heading);
+    font-size: 1.0em;
 }
 
 

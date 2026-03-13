@@ -12,15 +12,15 @@
 
 :root {
     color-scheme: light dark;
-}
-
-.metadata-properties-title {
+  }
+  
+  .metadata-properties-title {
     color: #ff0000 !important;
     font-weight: 1000;
     text-transform: uppercase;
-}
-
-body {
+  }
+  
+  body {
     --metadata-label-width: max(30%, 10rem);
     --metadata-label-font-weight: 1000;
     --metadata-input-font-weight: 1000;
