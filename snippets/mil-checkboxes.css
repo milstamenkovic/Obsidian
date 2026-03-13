@@ -2,11 +2,13 @@
 /* © 2026 Mil Stamenković */
 /* Additional help by Free Claude AI */
 /* Created  2024. - Ćuprija, Serbia - Mil Stamenković */
-/* Revised: 01.03.2026. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 13.03.2026. - Ćuprija, Serbia - Mil Stamenković */
 
 /* TO DO */
-/* 1) Asd */
 /* *) One day when Obsidian fix LivePreview - Make checkbox in TABLES */
+
+/* Current Checboxes */
+/* [ ]   [-]   [x]   [>]   [!] */
 
 
 
@@ -65,4 +67,22 @@ input[type=checkbox][data-task="!"]:checked,
 li[data-task="!"] input[type=checkbox]:checked {
     background-color: red !important;
     border-color: red !important;
+}
+
+
+
+/* -[>] checkbox is viewed as ORANGE BOX with BLACK > RIGHT ARROW  */
+/* This code works for both LivePreview note and for inside Callouts */
+
+input[type=checkbox][data-task=">"]:checked:after,
+li[data-task=">"] input[type=checkbox]:checked:after {
+    background-color: #000000 !important;
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg width='12px' height='12px' viewBox='0 0 12 12' version='1.1' xmlns='http://www.w3.org/2000/svg'><polyline points='3,1 9,6 3,11' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>") !important;
+    mask-image: url("data:image/svg+xml;utf8,<svg width='12px' height='12px' viewBox='0 0 12 12' version='1.1' xmlns='http://www.w3.org/2000/svg'><polyline points='3,1 9,6 3,11' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>") !important;
+}
+
+input[type=checkbox][data-task=">"]:checked,
+li[data-task=">"] input[type=checkbox]:checked {
+    background-color: #ffa500 !important;
+    border-color: #ffa500 !important;
 }
