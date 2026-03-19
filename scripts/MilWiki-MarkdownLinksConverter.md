@@ -10,6 +10,7 @@
 
 // This SCRIPT is used to find all Wiki or Markdown links and convert them to oposite (Wiki to Markdown and Markdown to Wiki).
 // It works for a single ACTIVE NOTE, for ACTIVE FOLDER (where Acrive note is) and for the WHOLE VAULT.
+// After using it, REPORT will be created in ROOT of VAULT for all the errors
 
 // 2026 - This script is used with Obsidian plugin TEMPLATER.
 

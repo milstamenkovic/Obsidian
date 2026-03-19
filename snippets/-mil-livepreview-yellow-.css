@@ -14,8 +14,8 @@
 
 
 
-/* VARIABLES FOR EVERYTHING */
-* {
+/* VARIABLES */
+:root {
     --background-table: #FFF6DE;
     --text-table: auto;
     --text-editor: red;
@@ -204,4 +204,35 @@ input[type='text']:hover {
 .markdown-preview-view,.markdown-source-view {
     max-width: 960px;
     margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TMP fix for the LIST INDENT */
+/* 14.03.2026. */
+/* DELETE/TURN OFF when Obsidian FIX it! */
+.HyperMD-list-line-nobullet {
+    text-indent: -14px !important;
+    padding-inline-start: 22px !important;
 }

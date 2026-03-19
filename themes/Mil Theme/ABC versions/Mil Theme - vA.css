@@ -7,7 +7,7 @@
 /* Revised:   05.03.2026. - Ćuprija, Serbia */
 /* Published: n/n - n/n */
 
-
+/* IMPORTANT -- THEME works with Obsidian. If something doesn't work well, check custom CSS snippets if they are breaking something. Turn them off/on and test if Theme works after that. */
 
 /*  COLOR PALETTE REFERENCE */
 /*  Dark mode:   bg #0F0F0F  |  text #c8c8c8  |  accent #871600 */
@@ -22,153 +22,148 @@
 
 
 
+
+
+
 /* Custom Mil Courier font */
 @font-face {
-    font-family: 'Mil Courier New';
-    src: url('font/MilCourierNew-Regular.otf') format('opentype');
+    font-family: "Mil Courier New";
+    src: url("font/MilCourierNew-Regular.otf") format("opentype");
 }
-
-
 
 /*  GLOBAL CSS VARIABLES — DARK MODE (default) */
 
 .theme-dark {
     /* Backgrounds */
-    --background-primary:               red;
-    --background-primary-alt:           red;
+    --background-primary: red;
+    --background-primary-alt: red;
     /* UI colors SECONDARY */
-    --background-secondary:             green;
-    --background-secondary-alt:         green;
-    --background-modifier-border:       blue;
-    --background-modifier-form-field:   blue;
-    --background-modifier-hover:        cyan;
+    --background-secondary: green;
+    --background-secondary-alt: green;
+    --background-modifier-border: blue;
+    --background-modifier-form-field: blue;
+    --background-modifier-hover: cyan;
     --background-modifier-active-hover: cyan;
 
     /* Text */
-    --text-normal:                  #c8c8c8;
-    --text-muted:                   #999999;
-    --text-faint:                   #666666;
-    --text-on-accent:               #ffffff;
-    --text-accent:                  #871600;
-    --text-accent-hover:            #a81e00;
+    --text-normal: #c8c8c8;
+    --text-muted: #999999;
+    --text-faint: #666666;
+    --text-on-accent: #ffffff;
+    --text-accent: #871600;
+    --text-accent-hover: #a81e00;
 
     /* Links */
-    --link-color:                   #ff2200;
-    --link-color-hover:             #ff4422;
-    --link-unresolved-color:        #871600;
-    --link-unresolved-opacity:      0.8;
+    --link-color: #ff2200;
+    --link-color-hover: #ff4422;
+    --link-unresolved-color: #871600;
+    --link-unresolved-opacity: 0.8;
 
     /* Code */
-    --code-background:              #1e1e1e;
-    --code-normal:                  #e06c75;
-    --code-comment:                 #666666;
-    --code-string:                  #c8c8c8;
-    --code-keyword:                 #871600;
+    --code-background: #1e1e1e;
+    --code-normal: #e06c75;
+    --code-comment: #666666;
+    --code-string: #c8c8c8;
+    --code-keyword: #871600;
 
     /* Interactive */
-    --interactive-normal:           #1e1e1e;
-    --interactive-hover:            #240600;
-    --interactive-accent:           #871600;
-    --interactive-accent-hover:     #a81e00;
+    --interactive-normal: #1e1e1e;
+    --interactive-hover: #240600;
+    --interactive-accent: #871600;
+    --interactive-accent-hover: #a81e00;
 
     /* UI Elements */
-    --scrollbar-bg:                 #0F0F0F;
-    --scrollbar-thumb-bg:           #2a2a2a;
-    --divider-color:                #2a2a2a;
+    --scrollbar-bg: #0f0f0f;
+    --scrollbar-thumb-bg: #2a2a2a;
+    --divider-color: #2a2a2a;
 
     /* Indentation guides — removed */
-    --indentation-guide-width:      0px;
-    --indentation-guide-color:      transparent;
+    --indentation-guide-width: 0px;
+    --indentation-guide-color: transparent;
     --indentation-guide-color-active: transparent;
 
     /* Tables */
-    --background-table:             #0F0F0F;
-    --text-table:                   #c8c8c8;
-    --border-table:                 #2a2a2a;
+    --background-table: #0f0f0f;
+    --text-table: #c8c8c8;
+    --border-table: #2a2a2a;
 
     /* Tags */
-    --tag-color:                    #c8c8c8;
-    --tag-background:               #240600;
-    --tag-color-hover:              #ffffff;
-    --tag-background-hover:         #4e0d00;
+    --tag-color: #c8c8c8;
+    --tag-background: #240600;
+    --tag-color-hover: #ffffff;
+    --tag-background-hover: #4e0d00;
 
     /* Highlight */
-    --text-highlight-bg:            #4e0d00;
-    --text-highlight-bg-active:     #871600;
+    --text-highlight-bg: #4e0d00;
+    --text-highlight-bg-active: #871600;
 }
-
-
-
 
 /*  GLOBAL CSS VARIABLES — LIGHT / YELLOW MODE */
 
 .theme-light {
     /* Backgrounds */
-    --background-primary:               red;
-    --background-primary-alt:           red;
+    --background-primary: red;
+    --background-primary-alt: red;
     /* UI colors SECONDARY */
-    --background-secondary:             green;
-    --background-secondary-alt:         green;
-    --background-modifier-border:       blue;
-    --background-modifier-form-field:   blue;
-    --background-modifier-hover:        cyan;
+    --background-secondary: green;
+    --background-secondary-alt: green;
+    --background-modifier-border: blue;
+    --background-modifier-form-field: blue;
+    --background-modifier-hover: cyan;
     --background-modifier-active-hover: cyan;
 
     /* Text */
-    --text-normal:                  #000000;
-    --text-muted:                   #444444;
-    --text-faint:                   #888888;
-    --text-on-accent:               #ffffff;
-    --text-accent:                  #871600;
-    --text-accent-hover:            #a81e00;
+    --text-normal: #000000;
+    --text-muted: #444444;
+    --text-faint: #888888;
+    --text-on-accent: #ffffff;
+    --text-accent: #871600;
+    --text-accent-hover: #a81e00;
 
     /* Links */
-    --link-color:                   #871600;
-    --link-color-hover:             #a81e00;
-    --link-unresolved-color:        #871600;
-    --link-unresolved-opacity:      0.6;
+    --link-color: #871600;
+    --link-color-hover: #a81e00;
+    --link-unresolved-color: #871600;
+    --link-unresolved-opacity: 0.6;
 
     /* Code */
-    --code-background:              #f0e8c8;
-    --code-normal:                  #871600;
-    --code-comment:                 #888888;
-    --code-string:                  #000000;
-    --code-keyword:                 #871600;
+    --code-background: #f0e8c8;
+    --code-normal: #871600;
+    --code-comment: #888888;
+    --code-string: #000000;
+    --code-keyword: #871600;
 
     /* Interactive */
-    --interactive-normal:           #FFF0CE;
-    --interactive-hover:            #240600;
-    --interactive-accent:           #871600;
-    --interactive-accent-hover:     #a81e00;
+    --interactive-normal: #fff0ce;
+    --interactive-hover: #240600;
+    --interactive-accent: #871600;
+    --interactive-accent-hover: #a81e00;
 
     /* UI Elements */
-    --scrollbar-bg:                 #FFF6DE;
-    --scrollbar-thumb-bg:           #d4c9a8;
-    --divider-color:                #d4c9a8;
+    --scrollbar-bg: #fff6de;
+    --scrollbar-thumb-bg: #d4c9a8;
+    --divider-color: #d4c9a8;
 
     /* Indentation guides — removed */
-    --indentation-guide-width:      0px;
-    --indentation-guide-color:      transparent;
+    --indentation-guide-width: 0px;
+    --indentation-guide-color: transparent;
     --indentation-guide-color-active: transparent;
 
     /* Tables */
-    --background-table:             transparent;
-    --text-table:                   #000000;
-    --border-table:                 #000000;
+    --background-table: transparent;
+    --text-table: #000000;
+    --border-table: #000000;
 
     /* Tags */
-    --tag-color:                    #ffffff;
-    --tag-background:               #871600;
-    --tag-color-hover:              #ffffff;
-    --tag-background-hover:         #4e0d00;
+    --tag-color: #ffffff;
+    --tag-background: #871600;
+    --tag-color-hover: #ffffff;
+    --tag-background-hover: #4e0d00;
 
     /* Highlight */
-    --text-highlight-bg:            #f5d87a;
-    --text-highlight-bg-active:     #e8c84a;
+    --text-highlight-bg: #f5d87a;
+    --text-highlight-bg-active: #e8c84a;
 }
-
-
-
 
 /*  BASE LAYOUT */
 
@@ -177,13 +172,10 @@ body {
     color: var(--text-normal);
 
     /* Custom Mil Courier font */
-    --font-text:      'Mil Courier New';
-    --font-interface: 'Mil Courier New';
-    --font-monospace: 'Mil Courier New';
+    --font-text: "Mil Courier New";
+    --font-interface: "Mil Courier New";
+    --font-monospace: "Mil Courier New";
 }
-
-
-
 
 /*  EDITOR — LIVE PREVIEW VIEW */
 
@@ -198,9 +190,6 @@ body {
     --background-modifier-form-field: var(--background-modifier-form-field);
     color: var(--text-normal);
 }
-
-
-
 
 /*  EDITOR — SOURCE VIEW */
 
@@ -226,28 +215,68 @@ body {
     background-color: var(--background-primary);
 }
 
-
-
-
 /*  HEADINGS  */
 
-.cm-header-1 { color: var(--text-normal); font-size: 1.8em; }
-.cm-header-2 { color: var(--text-normal); font-size: 1.6em; }
-.cm-header-3 { color: var(--text-normal); font-size: 1.4em; }
-.cm-header-4 { color: var(--text-normal); font-size: 1.2em; }
-.cm-header-5 { color: var(--text-normal); font-size: 1.1em; }
-.cm-header-6 { color: var(--text-normal); font-size: 1.0em; }
+.cm-header-1 {
+    color: var(--text-normal);
+    font-size: 1.8em;
+}
+
+.cm-header-2 {
+    color: var(--text-normal);
+    font-size: 1.6em;
+}
+
+.cm-header-3 {
+    color: var(--text-normal);
+    font-size: 1.4em;
+}
+
+.cm-header-4 {
+    color: var(--text-normal);
+    font-size: 1.2em;
+}
+
+.cm-header-5 {
+    color: var(--text-normal);
+    font-size: 1.1em;
+}
+
+.cm-header-6 {
+    color: var(--text-normal);
+    font-size: 1em;
+}
 
 /* Reading / Preview mode headings */
-.markdown-preview-view h1 { color: var(--text-normal); font-size: 1.8em; }
-.markdown-preview-view h2 { color: var(--text-normal); font-size: 1.6em; }
-.markdown-preview-view h3 { color: var(--text-normal); font-size: 1.4em; }
-.markdown-preview-view h4 { color: var(--text-normal); font-size: 1.2em; }
-.markdown-preview-view h5 { color: var(--text-normal); font-size: 1.1em; }
-.markdown-preview-view h6 { color: var(--text-normal); font-size: 1.0em; }
+.markdown-preview-view h1 {
+    color: var(--text-normal);
+    font-size: 1.8em;
+}
 
+.markdown-preview-view h2 {
+    color: var(--text-normal);
+    font-size: 1.6em;
+}
 
+.markdown-preview-view h3 {
+    color: var(--text-normal);
+    font-size: 1.4em;
+}
 
+.markdown-preview-view h4 {
+    color: var(--text-normal);
+    font-size: 1.2em;
+}
+
+.markdown-preview-view h5 {
+    color: var(--text-normal);
+    font-size: 1.1em;
+}
+
+.markdown-preview-view h6 {
+    color: var(--text-normal);
+    font-size: 1em;
+}
 
 /*  HIGHLIGHTS  ==text== */
 
@@ -265,9 +294,6 @@ table .cm-highlight {
     color: var(--text-table) !important;
 }
 
-
-
-
 /*  TABLES */
 
 table {
@@ -282,17 +308,11 @@ table td {
     color: var(--text-table) !important;
 }
 
-
-
-
 /*  CHECKBOXES — no strikethrough on completed tasks */
 
 .task-list-item.is-checked {
     text-decoration: none !important;
 }
-
-
-
 
 /*  TAGS */
 
@@ -309,9 +329,6 @@ table td {
     background-color: var(--tag-background-hover);
     color: var(--tag-color-hover) !important;
 }
-
-
-
 
 /*  LINKS */
 
@@ -336,9 +353,6 @@ a:hover,
     opacity: var(--link-unresolved-opacity);
 }
 
-
-
-
 /*  CODE BLOCKS */
 
 code {
@@ -360,15 +374,11 @@ pre {
     padding: 12px;
 }
 
-
-
 /* PROPERTIES */
 
 .metadata-container {
-  margin: 0 !important;
+    margin: 0 !important;
 }
-
-
 
 /*  SCROLLBAR */
 
@@ -390,11 +400,7 @@ pre {
     background: var(--interactive-accent);
 }
 
-
-
-
 /*  FILE EXPLORER — ACTIVE & HOVER STATES */
-
 
 /* Active note file */
 .tree-item-self.nav-file-title.tappable.is-clickable.is-active {
@@ -404,12 +410,16 @@ pre {
 }
 
 /* First parent folder of active note */
-.tree-item.nav-folder:has(> .tree-item-children > .tree-item.nav-file > .is-active) > .tree-item-self.nav-folder-title {
+.tree-item.nav-folder:has(
+        > .tree-item-children > .tree-item.nav-file > .is-active
+    )
+    > .tree-item-self.nav-folder-title {
     background-color: #4e0d00 !important;
 }
 
 /* All ancestor folders of active note */
-.tree-item.nav-folder:has(> .tree-item-children .is-active) > .tree-item-self.nav-folder-title {
+.tree-item.nav-folder:has(> .tree-item-children .is-active)
+    > .tree-item-self.nav-folder-title {
     background-color: #240600 !important;
 }
 
@@ -417,9 +427,6 @@ pre {
 .tree-item-self:hover {
     background-color: #240600 !important;
 }
-
-
-
 
 /*  ICONS */
 
@@ -431,9 +438,6 @@ pre {
     color: #871600 !important;
 }
 
-
-
-
 /*  [[ ]] SUGGESTION MENU */
 
 .suggestion-item.is-selected {
@@ -444,9 +448,6 @@ pre {
 .suggestion-item.is-selected .suggestion-note {
     color: #ffffff !important;
 }
-
-
-
 
 /*  SIDEBAR & WORKSPACE CHROME */
 
@@ -478,9 +479,6 @@ pre {
     font-size: 0.8em;
 }
 
-
-
-
 /*  MODAL & COMMAND PALETTE */
 
 .modal {
@@ -505,9 +503,6 @@ pre {
     color: #ffffff !important;
 }
 
-
-
-
 /*  SETTINGS PANEL */
 
 .vertical-tab-nav-item.is-active {
@@ -520,9 +515,6 @@ pre {
     color: #c8c8c8 !important;
 }
 
-
-
-
 /*  BLOCKQUOTES */
 
 blockquote {
@@ -532,9 +524,6 @@ blockquote {
     margin-left: 0;
 }
 
-
-
-
 /*  HORIZONTAL RULE */
 
 hr {
@@ -542,9 +531,6 @@ hr {
     border-top: 1px solid var(--divider-color);
     margin: 1.5em 0;
 }
-
-
-
 
 /*  SELECTION */
 
