@@ -10,9 +10,9 @@
 
 
 
-:root {
+/* :root {
     color-scheme: light dark;
-  }
+  } */
   
   .metadata-properties-title {
     color: #ff0000 !important;
@@ -27,8 +27,7 @@
 }
 
 .metadata-property input[type='text'], .metadata-property input[type='date'], .metadata-property input[type='datetime-local'], .metadata-property input[type='number'], .metadata-property .multi-select-container {
-    color: auto;
-}
+    color: auto;}
 
 .metadata-container {
   margin: 0 !important;

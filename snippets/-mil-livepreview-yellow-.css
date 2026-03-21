@@ -2,7 +2,7 @@
 /* © 2026 Mil Stamenković */
 /* Additional help by Free Claude AI */
 /* Created  02.03.2026. - Ćuprija, Serbia - Mil Stamenković */
-/* Revised: 05.03.2026. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 21.03.2026. - Ćuprija, Serbia - Mil Stamenković */
 
 
 
@@ -206,10 +206,10 @@ input[type='text']:hover {
     margin: auto;
 }
 
-
-
-
-
+/* Color of Focused Tab/Note */
+.workspace-tabs.mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-title {
+  color: #871600 !important;
+}
 
 
 
