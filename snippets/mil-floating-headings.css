@@ -1,7 +1,7 @@
 /* Mil Floating Headings - Custom CSS snippet for Floating Headings plugin by Mil Stamenković */
 /* © 2026 Mil Stamenković */
 /* Created: 22.02.2026. - Ćuprija, Serbia - Mil Stamenković */
-/* Revised: 05.03.2026. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 25.03.2026. - Ćuprija, Serbia - Mil Stamenković */
 
 /* TO DO */
 /* ✔) Push collapsed heading to the right margin - 0 space? */
@@ -35,4 +35,9 @@
 /* Headings in Outline - Text color is red */
 .floating-heading-item {
     color: #ff0000 !important;
+}
+
+/* TODAY in Heading is WHITE color in Outline */
+.floating-heading-item[title="TODAY"] {
+    color: white !important;
 }
