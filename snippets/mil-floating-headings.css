@@ -40,4 +40,5 @@
 /* TODAY in Heading is WHITE color in Outline */
 .floating-heading-item[title="TODAY"] {
     color: white !important;
+    font-size: 2em;
 }
