@@ -42,9 +42,9 @@
 /* LivePreview and Source view */
 .markdown-source-view.mod-cm6.is-source-mode {
 
-    /* Not sure what does this changes in here.
-    Try to find out what does this style changes! */
-    color: blue !important;
+                        /* Not sure what does this changes in here.
+                        Try to find out what does this style changes! */
+                        color: blue !important;
     
     /* Text color */
     --text-muted: #999999;
