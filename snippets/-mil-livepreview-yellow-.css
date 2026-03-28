@@ -213,14 +213,21 @@ input[type='text']:hover {
   color: #871600 !important;
 }
 
+/* Breadcrumbs and Tab Titles size */
 
+.view-header {
+    height: 35px !important;
+}
 
+.view-header-title-container {
+    font-size: 0.95em !important;
+    font-weight: 900 !important;
+} 
 
-
-
-
-
-
+.workspace-tab-header-inner-title {
+    font-size: 0.95em !important;
+    font-weight: 900 !important;
+}
 
 
 
