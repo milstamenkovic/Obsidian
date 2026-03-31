@@ -224,8 +224,9 @@ input[type='text']:hover {
 }
 
 /* Breadcrumbs and Tab Titles size */
-
-.view-header {
+/* :not.hover-editor protects HOVER EDITOR from being changed */
+ 
+.view-header:not.hover-editor {
     height: 35px !important;
 }
 
