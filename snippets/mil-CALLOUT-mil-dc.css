@@ -2,18 +2,18 @@
 /* © 2026 Mil Stamenković */
 /* Callout used only when Daily Calendar has to be integrated into a note. */
 /* Created: 24.02.2026. - Ćuprija, Serbia - Mil Stamenković */
-/* Revised: 12.03.2026. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 03.04.2026. - Ćuprija, Serbia - Mil Stamenković */
 
 
 
 /* Mil To Do Callout - Size, color and padding */
 .callout[data-callout="mil-dc"] {
-  background-color: #fff6c3 !important;
+  --callout-color: 255, 255, 0 !important;
   --callout-title-color: gray !important;
   --callout-icon: lucide-alert-triangle !important; 
   /* Callout Padding */
   /* Top Right Bottom Left */
-  --callout-title-padding: 0% 0% 0% 1%;
+  --callout-title-padding: 0% 0% 0% 1%;n
   /* callout-content-padding LEFT 1% for visible CHECKBOX */
   --callout-content-padding: 1px;
 }
