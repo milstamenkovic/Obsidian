@@ -2,7 +2,7 @@
 /* © 2026 Mil Stamenković */
 /* Additional help by Free Claude AI */
 /* Created: 13.02.2026. - Ćuprija, Serbia - Mil Stamenković */
-/* Revised: 21.03.2026. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 05.04.2026. - Ćuprija, Serbia - Mil Stamenković */
 
 
 
@@ -69,6 +69,10 @@
     color: var(--text-normal);
     background-color: var(--background-primary);
 }
+
+code[class*="language-"] {
+        color: #a8a8a8 !important;
+    }
 
 /* Color of ==highlighted== text */
 .cm-highlight {
