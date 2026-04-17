@@ -13,7 +13,7 @@
   --callout-icon: lucide-alert-triangle !important; 
   /* Callout Padding */
   /* Top Right Bottom Left */
-  --callout-title-padding: 0% 0% 0% 1%;n
+  --callout-title-padding: 0% 0% 0% 1%;
   /* callout-content-padding LEFT 1% for visible CHECKBOX */
   --callout-content-padding: 1px;
 }

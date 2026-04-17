@@ -1,0 +1,52 @@
+/* mil-2c - Mil Callout 2 Collumns - Custom CSS snippet for callout by Mil Stamenković */
+/* © 2026 Mil Stamenković */
+/* Callout with 2 columns */
+/* Created with help of Free Google Gemini AI */
+/* Created: 14.04.2026. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 14.04.2026.. - Ćuprija, Serbia - Mil Stamenković */
+
+
+
+.callout[data-callout="mil-2c"] {
+    background-color: inherit;
+    --callout-icon: none !important;
+}
+
+.callout[data-callout="mil-2c"] .callout-title {
+    color: red;
+}
+
+/* Container for the two columns */
+.callout[data-callout="mil-2c"] .callout-content {
+    display: flex;
+    gap: 20px; /* Space between columns */
+}
+
+/* Individual columns */
+.callout[data-callout="mil-2c"] .column {
+    flex: 1; /* Makes columns equal width */
+    min-width: 0; /* Prevents overflow issues */
+}
+
+/* Optional: Stack columns on mobile/small screens */
+@media (max-width: 480px) {
+    .callout[data-callout="mil-2c"] .callout-content {
+        flex-direction: column;
+    }
+}
+
+
+
+/* HOW TO WRITE NOTE WITH TWO COLUMNS
+
+> [!mil-2c] CALLOUT TITLE
+> 
+> <div class="column"/>
+> 
+> Left column     
+> 
+> </div> <div class="column"/>
+>
+> Right column
+> 
+> </div>
