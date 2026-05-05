@@ -243,10 +243,11 @@ input[type='text']:hover {
 
 
 
-/* TMP fix for the LIST INDENT */
-/* 14.03.2026. */
-/* DELETE/TURN OFF when Obsidian FIX it! */
-.HyperMD-list-line-nobullet {
-    text-indent: -14px !important;
-    padding-inline-start: 22px !important;
-}
+/* /* TMP fix for the LIST INDENT */
+/* /* 14.03.2026. */
+/* /* DELETE/TURN OFF when Obsidian FIX it! */
+/* /* Fixed 30.04.2026. - Maybe?
+/* .HyperMD-list-line-nobullet {
+/*     text-indent: -14px !important;
+/*     padding-inline-start: 22px !important;
+/* }
