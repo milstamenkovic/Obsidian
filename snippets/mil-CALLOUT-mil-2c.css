@@ -3,8 +3,9 @@
 /* Callout with 2 columns */
 /* Created with help of Free Google Gemini AI */
 /* Created: 14.04.2026. - Ćuprija, Serbia - Mil Stamenković */
-/* Revised: 14.04.2026.. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 14.05.2026.. - Ćuprija, Serbia - Mil Stamenković */
 
+/* Instructions how to use it are at bottom of the page */
 
 
 .callout[data-callout="mil-2c"] {
@@ -13,7 +14,8 @@
 }
 
 .callout[data-callout="mil-2c"] .callout-title {
-    color: red;
+		display: none;    
+		/* color: red;*/
 }
 
 /* Container for the two columns */
