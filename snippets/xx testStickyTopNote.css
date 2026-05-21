@@ -1,0 +1,12 @@
+/* Sticky Callout for [!sticky] type only */
+.callout[data-callout="sticky"] {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 100 !important;
+    margin-top: 0 !important;
+    margin-bottom: 1em !important;
+    /* Optional: custom color to distinguish it */
+    --callout-color: 0, 122, 255 !important;
+    --callout-icon: lucide-pin !important;
+}
+

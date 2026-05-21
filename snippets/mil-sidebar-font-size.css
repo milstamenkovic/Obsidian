@@ -1,0 +1,5 @@
+.nav-file-title, .nav-folder-title, .tag-pane-tag, .tag-container {
+    font-size: 11px;
+    font-family: courier new;
+    padding: 3px;
+}

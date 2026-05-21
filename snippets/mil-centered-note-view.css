@@ -1,0 +1,17 @@
+.markdown-preview-view {
+    display: flex;
+    justify-content: center;
+}
+
+.markdown-preview-view .markdown-preview-sizer {
+    max-width: none;
+}
+
+.cm-content {
+    display: flex;
+    justify-content: center;
+}
+
+.cm-s-obsidian .CodeMirror-sizer {
+    max-width: none;
+}

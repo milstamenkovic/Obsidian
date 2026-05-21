@@ -1,0 +1,83 @@
+/* test for cssclasses CSS for Note that is only stored in SIDEBAR by Mil Stamenković*/
+/* © 2026 Mil Stamenković */
+/* Additional help by Free Claude AI */
+/* Created  12.03.2026. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 12.03.2026. - Ćuprija, Serbia - Mil Stamenković */
+
+
+
+/* ---- BACKGROUND & TEXT ---- */
+.sidebarCSS.is-live-preview {
+    background-color: #000000 !important;
+    color: #c8c8c8 !important;
+    margin: -5em !important;
+    padding: -5em !important;
+    font-size: 0.5em !important;
+}
+
+
+
+/* ---- HIDE PROPERTIES / FRONTMATTER ---- */
+.sidebarCSS .metadata-container {
+    display: none !important;
+}
+
+
+
+/* ---- HIDE LINE NUMBERS ---- */
+.sidebarCSS .cm-lineNumbers {
+    display: none !important;
+}
+
+
+
+/* ---- COMPACT MARGINS & PADDING ---- */
+.sidebarCSS .cm-contentContainer {
+    font-size: 0.5em !important;
+    padding: 0 !important;
+}
+
+.sidebarCSS .cm-content {
+    font-size: 0.5em !important;
+    padding: 0 8px !important;
+}
+
+
+
+/* ---- HEADINGS ---- */
+.sidebarCSS .cm-header-1 { font-size: 1.2em !important; }
+.sidebarCSS .cm-header-2 { font-size: 1.1em !important; }
+.sidebarCSS .cm-header-3 { font-size: 1.0em !important; }
+.sidebarCSS .cm-header-4,
+.sidebarCSS .cm-header-5,
+.sidebarCSS .cm-header-6 { font-size: 0.95em !important; }
+
+
+
+/* ---- CALLOUTS ---- */
+.sidebarCSS .callout {
+    font-size: 0.5em !important;
+    padding: 4px 8px !important;
+}
+
+.sidebarCSS .callout-title {
+    font-size: 0.5em !important;
+    padding: 2px 4px !important;
+}
+
+.sidebarCSS .callout-content {
+    padding: 2px 4px !important;
+}
+
+
+
+/* ---- TABLES ---- */
+.sidebarCSS table {
+    font-size: 2em !important;
+    width: 100% !important;
+}
+
+.sidebarCSS table th,
+.sidebarCSS table td {
+    font-size: 2em !important;
+}

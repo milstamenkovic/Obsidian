@@ -1,0 +1,43 @@
+/* This targets the entire note container when the class 'light-note' is present */
+
+.TestDarkLiveTest {
+  background: #00011A !important;
+  color: #ffffff !important;
+}
+
+.TestDarkLiveTest .cm-header-1 {
+  color: Blue !important;
+}
+
+.TestDarkLiveTest .cm-header-2 {
+  color: Green !important;
+}
+
+.TestDarkLiveTest .cm-header-3 {
+  color: Red !important;
+
+}
+
+.TestDarkLiveTest .cm-header-4 {
+  color: Yellow !important;
+}
+
+.TestDarkLiveTest .cm-hashtag {
+  color: Magenta !important;
+}
+
+.TestDarkLiveTest .HyperMD-header-3 {
+  text-align: center !important;
+}
+
+.TestDarkLiveTest .cm-line:not(.HyperMD-header) {
+  color: #B87669 !important;
+  font-size: 20px !important;
+  text-align: right !important;
+}
+
+.TestDarkLiveTest .HyperMD-header-3 ~ .cm-line:not(.HyperMD-header) { 
+    color: Blue !important; 
+    font-style: italic !important; 
+}
+

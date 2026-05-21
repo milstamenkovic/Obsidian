@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Un-ignore .gitignore itself (so it gets pushed too)
+!.gitignore
+
+# Un-ignore snippets and themes folders
+!scripts/
+!scripts/**
+!snippets/
+!snippets/**
+!themes/
+!themes/Mil Theme/
+!themes/Mil Gitsidian.css

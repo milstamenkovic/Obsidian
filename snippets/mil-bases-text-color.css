@@ -1,0 +1,7 @@
+/* Color of text inside BASES fields */
+
+.bases-view {
+
+    --metadata-input-text-color: red;
+
+}

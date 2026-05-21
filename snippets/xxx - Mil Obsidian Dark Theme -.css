@@ -1,0 +1,201 @@
+
+/*   This is Work In Progress for MIL OBSIDIAN DARK THEME 001   */
+
+/*   This is Work In Progress for MIL OBSIDIAN DARK THEME 001   */
+
+/*   This is Work In Progress for MIL OBSIDIAN DARK THEME 001   */
+
+/*       13.02.2026. - Ćuprija, Serbia -- Mil Stamenković       */
+
+
+
+
+/* Made from the idea and code of "mil-livepreview-dark.css" and other Mil's custom snippets for the Obsidian! */
+/* Dark Theme that is used like a regular CSS snippet inside Obsidian */
+
+
+
+
+
+/*       13.02.2026. - Ćuprija, Serbia -- Mil Stamenković       */
+
+/*   This is Work In Progress for MIL OBSIDIAN DARK THEME 001   */
+
+/*   This is Work In Progress for MIL OBSIDIAN DARK THEME 001   */
+
+/*   This is Work In Progress for MIL OBSIDIAN DARK THEME 001   */
+
+
+
+
+
+
+
+
+/* Dark mode 2 for Live preview by Mil Stamenković*/
+/* Additional help by Claude AI */
+/* Created: 13.02.2026. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 13.02.2026. - Ćuprija, Serbia - Mil Stamenković */
+
+.markdown-source-view.mod-cm6,
+.markdown-preview-view {
+    /* Core Obsidian Dark Theme Variables */
+    --background-primary: #0F0F0F;
+    --background-primary-alt: #161616;
+    --background-secondary: #161616;
+    --background-secondary-alt: #0a0a0a;
+    --background-modifier-border: #424242;
+    --background-modifier-form-field: #1e1e1e;
+
+    /* Text color */
+    --text-normal: #A3A3A3;
+    --text-muted: #999999;
+    --text-faint: #666666;
+    --text-on-accent: #ffffff;
+
+    /* Link colors */
+    --link-color: #ff0000;
+    --link-unresolved-color: #ff0000;
+
+    /* Code colors */
+    --code-background: #2d2d2d;
+    --code-normal: #e06c75;
+
+    /* REMOVE TAB LINES */
+    --indentation-guide-width: 0px;
+    --indentation-guide-color: transparent;
+    --indentation-guide-color-active: transparent;
+
+    /* Force specific element colors for visibility */
+    color: var(--text-normal);
+    background-color: var(--background-primary);
+}
+
+
+
+/* Headers */
+.cm-header-1 {
+    color: #A3A3A3; font-size: 1.8em;
+}
+.cm-header-2 {
+    color: #A3A3A3; font-size: 1.6em;
+}
+.cm-header-3 {
+    color: #A3A3A3; font-size: 1.4em;
+    font-weight: 1000 !important;
+}
+.cm-header-4 {
+    color: #A3A3A3; font-size: 1.2em;
+}
+.cm-header-5 {
+    color: #A3A3A3; font-size: 1.1em;
+}
+.cm-header-6 {
+    color: #A3A3A3; font-size: 1.0em;
+}
+
+
+
+/* Table color */
+table {
+    border-color: #A3A3A3 !important;
+}
+
+table th,
+table td {
+    border-color: #A3A3A3 !important;
+}
+
+/* Table text color and text background color while editing table */
+table .cm-content {
+    background-color: var(--background-primary) !important;
+    color: var(--text-normal) !important;
+}
+
+
+/* [[]] menu colors */
+/* HEX for drker red color #871600 */
+
+.suggestion-item.is-selected {
+    background-color: #871600 !important; /* Selected item background */
+    color: #ffffff !important;
+}
+
+.suggestion-item.is-selected .suggestion-note {
+    color: #fffffF !important;
+}
+
+
+
+
+
+/*   Additional tests for Mil Dark LivePreview and Mil Dark Theme   */
+
+
+
+/* Sidebar icons */
+.nav-action-button svg,
+.side-dock-ribbon-action svg,
+.clickable-icon svg {
+    color: #871600 !important; /* Icon color */
+}
+
+
+
+
+
+
+
+
+
+/*      NEW STUFF FOR MIL DARK THEME       */
+
+
+/* Change font for all text */
+.theme-dark {
+  --font-text: "Your Font Name", sans-serif; /* Body text font */
+  --font-monospace: "Your Monospace Font", monospace; /* Code font */
+  --font-interface: "Your Font Name", sans-serif; /* UI elements */
+}
+
+/* Or target specific elements directly */
+body {
+  font-family: "Your Font Name", sans-serif !important;
+}
+
+/* Just editor text */
+.cm-content {
+  font-family: "Your Font Name", sans-serif !important;
+}
+
+/* Headers with different fonts */
+.cm-header {
+  font-family: "Your Header Font", serif !important;
+}
+
+
+
+
+
+/* How to change Obsidian caret/cursor to be a BLOCK caret? */
+/* How to change Obsidian caret/cursor to be a BLOCK caret? */
+/* How to change Obsidian caret/cursor to be a BLOCK caret? */
+/* How to change Obsidian caret/cursor to be a BLOCK caret? */
+/* How to change Obsidian caret/cursor to be a BLOCK caret? */
+/* How to change Obsidian caret/cursor to be a BLOCK caret? */
+/* How to change Obsidian caret/cursor to be a BLOCK caret? */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
