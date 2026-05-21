@@ -1,4 +1,0 @@
-.nav-folder.mod-root .nav-folder > .nav-folder-children {
-    margin: 0px -130px 10px 5px;
-    border-left: var(--nav-indentation-guide-width) solid rgb(255 0 0 / 12%);
-}
