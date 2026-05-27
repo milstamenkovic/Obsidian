@@ -5,6 +5,7 @@
 !.gitignore
 
 # Un-ignore snippets and themes folders
+!README.md
 !scripts/
 !scripts/**
 !snippets/
