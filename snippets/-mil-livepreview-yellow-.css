@@ -22,8 +22,6 @@
     --text-heading: auto;
 }
 
-
-
 /* LivePreview view, Reading view */
 .markdown-source-view.mod-cm6.is-live-preview, .markdown-preview-view {
     /* Note background color */
@@ -37,6 +35,8 @@
     --background-secondary-alt: magenta;
     --background-modifier-border: #871600;
     --background-modifier-form-field: #131313;
+		font-size: 0.775rem; /* Same size as default - Beter line height? */
+		font-weight: 900;
 }
 
 /* LivePreview and Source view */
@@ -63,7 +63,6 @@
     --indentation-guide-width: 0px;
     --indentation-guide-color: transparent;
     --indentation-guide-color-active: transparent;
-    
 }
 
 code[class*="language-"] {
