@@ -1,0 +1,12 @@
+/* Mil TAB Indent - Custom CSS snippet for TAB key to indent text without creating CODE BLOCK by Mil Stamenković*/
+/* © 2026 Mil Stamenković */
+/* Created  15.06.2026. - Ćuprija, Serbia - Mil Stamenković */
+/* Revised: 15.06.2026. - Ćuprija, Serbia - Mil Stamenković */
+
+
+
+.cm-mod-appearance, .HyperMD-indented-code, .cm-hmd-indented-code {
+    background-color: transparent !important;
+    padding: 0 !important;
+		color: inherit !important;
+}

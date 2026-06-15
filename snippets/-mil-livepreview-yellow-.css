@@ -66,8 +66,8 @@
 }
 
 code[class*="language-"] {
-        color: #a8a8a8 !important;
-    }
+	color: #a8a8a8 !important;
+}
 
 /* Color of ==highlighted== text */
 .cm-highlight {
